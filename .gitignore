@@ -1,1 +1,4 @@
 bridge.bat
+
+*.ps
+*.log
