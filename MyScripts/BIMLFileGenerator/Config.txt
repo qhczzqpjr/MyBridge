@@ -1,0 +1,1 @@
+SQL_Uat_OSCAR|dbo.sfa_cusip|SQL_Prod_OSCAR|dbo.sfa_cusip

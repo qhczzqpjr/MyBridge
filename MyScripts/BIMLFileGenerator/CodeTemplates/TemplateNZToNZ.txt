@@ -1,0 +1,22 @@
+﻿				<Container Name="Load @srctablename" ConstraintMode="Linear" >
+					<Tasks>		
+						<ExecuteSQL Name="Truncate Destination Table" ConnectionName="@destconn">
+							<DirectInput>
+								<![CDATA[ TRUNCATE TABLE @srctablename]]>
+							</DirectInput>
+						</ExecuteSQL>
+
+						<Dataflow Name="Load">
+							<Transformations>
+								<OleDbSource Name="Retrive Data" ConnectionName="@srcconn"  AlwaysUseDefaultCodePage="true" DefaultCodePage="1252">
+									<DirectInput>
+										<![CDATA[SELECT * FROM @srctablename]]>
+									</DirectInput>
+								</OleDbSource>
+								<OleDbDestination Name="Insert Data" ConnectionName="@destconn" AlwaysUseDefaultCodePage ="true">
+									<ExternalTableOutput Table="@desttablename"/>
+								</OleDbDestination>
+							</Transformations>
+						</Dataflow>
+					</Tasks>
+				</Container>

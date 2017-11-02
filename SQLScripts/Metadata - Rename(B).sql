@@ -1,1 +1,0 @@
-SELECT 'sp_rename '''+TABLE_SCHEMA+'.'+TABLE_NAME+''''+','''+REPLACE(TABLE_NAME,'_Staging','')+'''' FROM INFORMATION_SCHEMA.TABLES
