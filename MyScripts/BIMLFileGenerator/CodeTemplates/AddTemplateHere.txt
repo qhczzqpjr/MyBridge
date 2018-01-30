@@ -1,0 +1,4 @@
+@srcconn
+@srctablename
+@destconn
+@desttablename

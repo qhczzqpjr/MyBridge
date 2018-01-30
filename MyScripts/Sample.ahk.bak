@@ -1,0 +1,362 @@
+
+;^ = Ctril
+;+ = Shift
+;! = Alt
+;# Windows Key
+;MouseMove,130,496
+;Click, 466,496
+;Sleep, 1000
+;Send, Hello
+#SingleInstance force
+
+#Include functions.ahk
+#Include Class_SQLiteDB.ahk
+
+SetWorkingDir %A_ScriptDir%
+
+gTFSRepo = "https://citi.tms.east.citigroup."
+#F1::
+    run, %gTFSRepo%"net/"
+return
+;~ while 1==1
+;~ {
+    ;~ MouseMove, 100, 300, 50, R
+    ;~ MouseMove, 40, 30, 50
+    ;~ MouseClick, left, 50 ,20
+;~ }
+
+;~ Esc::ExitApp
+;~ ;#F1::
+;~ ;Program := "Notepad"
+;~ ;Exe := "notepad.exe"
+;~ ;
+;~ ;BindProgram(Program, Exe)
+;~ ;return
+
+;~ #t::
+;~ InputBox, time, Timer, Please typeIn the time
+
+;~ time := time*1000
+;~ Sleep,%time%
+;~ MsgBox 
+;~ return
+ 
+ 
+
+/*
+
+FileRead, Contents, DB\test.txt
+
+#F1::
+    Send, ^n
+    WinWaitActive, Untitled - Message (HTML) ahk_class rctrl_renwnd32
+    SendInput, qian1.zhu@citi.com{Esc};qian1.zhu@citi.com{Esc}`t`t`t
+    SendInput, test`t
+    ClipBoard = %Contents%
+    Send, ^v
+  
+return
+
+/*
+#F1::
+     IfWinActive, Microsoft Excel - QueryAnalysis.xlsx ahk_class XLMAIN
+    {
+        WinMinimize, Microsoft Excel - QueryAnalysis.xlsx ahk_class XLMAIN
+    }
+    else
+    {
+        WinActivate, Microsoft Excel - QueryAnalysis.xlsx ahk_class XLMAIN
+    }
+return
+
+#F2::
+     IfWinActive, test.sql + (~\Desktop\test) - GVIM ahk_class Vim
+    {
+        WinMinimize, test.sql + (~\Desktop\test) - GVIM ahk_class Vim
+    }
+    else
+    {
+        WinActivate, test.sql + (~\Desktop\test) - GVIM ahk_class Vim
+    }
+return
+
+#F3::
+     IfWinActive, QueryWalkThrough.docx - Microsoft Word ahk_class OpusApp
+    {
+        WinMinimize, QueryWalkThrough.docx - Microsoft Word ahk_class OpusApp
+    }
+    else
+    {
+        WinActivate, QueryWalkThrough.docx - Microsoft Word ahk_class OpusApp
+    }
+return
+
+
+#F4::
+IfWinNotExist ahk_class SciTEWindow
+{
+    run, "C:\Users\qz55554\Documents\MyScripts\SciTE\SciTE.exe"
+}else
+{
+     IfWinActive, ahk_class SciTEWindow
+    {
+        WinMinimize, ahk_class SciTEWindow
+    }
+    else
+    {
+        WinActivate, ahk_class SciTEWindow
+    }
+}
+return
+
+/*
+Progress, m2 b zh0, Text here
+
+SetWorkingDir %A_ScriptDir%
+
+
+#F1::
+    ExitApp   
+return
+/*
+#Persistent
+
+; Save the file every ten minutes.
+SetTimer, AutoSave, 600000, On
+
+AutoSave:
+    run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
+    WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
+    WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
+    SendInput, cd ~/Source/github/MyBridge/`n 
+    SendInput, git pull`n
+    Sleep, 10000 
+    Run, powershell "C:\Users\qz55554\Source\github\MyBridge\Mycmd.ps1"
+    WinActivate, MINGW64:/c/Users/qz55554/Source/github/MyBridge
+    SendInput, git add -A `n
+    Sleep, 10000
+    WinActivate, MINGW64:/c/Users/qz55554/Source/github/MyBridge
+    SendInput, git commit -m "auto" `n
+    Sleep, 10000
+    WinActivate, MINGW64:/c/Users/qz55554/Source/github/MyBridge
+    SendInput, git push`n
+    Sleep, 10000
+    WinActivate, MINGW64:/c/Users/qz55554/Source/github/MyBridge
+    SendInput, exit`n
+return
+
+!F1::
+    MsgBox, Stop timer
+    ExitApp
+return
+
+
+
+/* issue of generating MD5 value
+data := ""
+data2 := "The quick brown fox jumps over the lazy dog"
+MsgBox, % StrLen(data)
+MsgBox % MD5(data,StrLen(data)) ; 900150983cd24fb0d6963f7d28e17f72
+
+MsgBox, % StrLen(data2)
+MsgBox % MD5(data,StrLen(data2))
+
+MD5( ByRef V, L=0 ) {
+ VarSetCapacity( MD5_CTX,104,0 ), DllCall( "advapi32\MD5Init", Str,MD5_CTX ) 
+ DllCall( "advapi32\MD5Update", Str,MD5_CTX, Str,V, UInt,L ? L : VarSetCapacity(V) ) 
+ DllCall( "advapi32\MD5Final", Str,MD5_CTX ) 
+ Loop % StrLen( Hex:="123456789ABCDEF0" ) 
+  N := NumGet( MD5_CTX,87+A_Index,"Char"), MD5 .= SubStr(Hex,N>>4,1) . SubStr(Hex,N&15,1) 
+Return MD5 
+}
+;  
+/*
+q = Clipboard
+appid = 20161124000032646
+pwd = zGI_3XiojzQlvTXfOWmB
+from = en
+to = zh
+salt = 
+md5Str = 
+sign = md5()
+
+http://api.fanyi.baidu.com/api/trans/vip/translate?q=apple&from=en&to=zh&appid=2015063000000001&salt=1435660288&sign=f89f9594663708c1605f3d736d01d2d4
+*/
+
+
+/*
+DBFileName :=  A_ScriptDir . "\testdb.db"
+
+DB := new SQLiteDB
+Version := DB.Version
+;MsgBox, %Version%
+If !DB.OpenDB(DBFileName) {
+   MsgBox, 16, SQLite Error, % "Msg:`t" . DB.ErrorMsg . "`nCode:`t" . DB.ErrorCode
+   ExitApp
+}
+Sleep, 1000
+columnNo = 2
+
+JobName := Clipboard
+SQL := "SELECT * FROM JobQuickVisit WHERE JobName='" JobName "'"
+MsgBox, % JobName
+DB.Exec(SQL, "SQLiteExecCallBack")
+
+Result := ""
+If !DB.GetTable(SQL, Result)
+   MsgBox, 16, SQLite Error: GetTable, % "Msg:`t" . DB.ErrorMsg . "`nCode:`t" . DB.ErrorCode
+
+
+
+If !DB.CloseDB()
+   MsgBox, 16, SQLite Error, % "Msg:`t" . DB.ErrorMsg . "`nCode:`t" . DB.ErrorCode
+
+SQLiteExecCallBack(DB, ColumnCount, ColumnValues, ColumnNames) {
+   This := Object(DB)
+   global columnNo
+   offset = % columnNo * A_PtrSize
+   MsgBox, % StrGet(NumGet(ColumnNames + 0, offset, "UInt"), "UTF-8")
+   runpath := StrGet(NumGet(ColumnValues + 0, offset, "UInt"), "UTF-8")
+   Run, % runpath
+      
+   Return 0
+}
+/*
+;MsgBox,%A_ScriptDir%
+hIcon32 := DllCall("LoadImage", uint, 0
+    , str, "test.ico"  ; Icon filename (this file may contain multiple icons).
+    , uint, 1  ; Type of image: IMAGE_ICON
+    , int, 32, int, 32  ; Desired width and height of image (helps LoadImage decide which icon is best).
+    , uint, 0x10)  ; Flags: LR_LOADFROMFILE
+Gui +LastFound
+Gui, add, Text, heelo w300 h50
+SendMessage, 0x80, 0, hIcon32  ; 0x80 is WM_SETICON; and 1 means ICON_BIG (vs. 0 for ICON_SMALL).
+Gui Show
+
+
+
+
+/*
+SetWorkingDir %A_ScriptDir%
+
+ ObjectName := Clipboard
+     SendInput sp_helptext '%ObjectName%'
+ /*      
+whichWeekday :=   ["Today it's Sunday!","Today it's Monday!","Today it's Tuesday!","Today it's Wednesday!","Today it's Thursday!","Today it's Friday!","Today it's Saturday!"]
+MsgBox %  whichWeekday[A_WDay]
+
+
+wb := ComObjCreate("InternetExplorer.Application")  ;// Create an IE object
+wb.Visible := true                                  ;// Make the IE object visible
+wb.Navigate("www.AutoHotkey.com")                   ;// Navigate to a webpage
+
+DllCall("MessageBox","Uint",0,"Str","This Message is poped through DLLcall","Str","I typed that title","Uint","0x00000030L") 
+DllCall("MessageBox","Uint",0,"Str","This Message is poped through DLLcall","Str","I typed that title","Uint","0x00000036L")
+*/
+/*
+c# =
+(
+    using System.Windows.Forms;
+    class Foo {
+        public void Test() {
+            MessageBox.Show("Hello, world, from C#!");
+        }
+    }
+)
+vb =
+(
+    Imports System.Windows.Forms
+    Class Foo
+        Public Sub Test()
+            MessageBox.Show("Hello, world, from VB!")
+        End Sub
+    End Class
+)
+
+CLR_Start()
+
+asm := CLR_CompileC#(c#, "System.dll | System.Windows.Forms.dll")
+obj := CLR_CreateObject(asm, "Foo")
+COM_Invoke(obj, "Test")
+COM_Release(obj)
+; Note: This doesn't unload the Assembly itself, just frees the Assembly object.
+COM_Release(asm)
+
+asm := CLR_CompileVB(vb, "System.dll | System.Windows.Forms.dll")
+obj := CLR_CreateObject(asm, "Foo")
+COM_Invoke(obj, "Test")
+COM_Release(obj), COM_Release(asm)
+*/
+/*
+
+hModule := DllCall("LoadLibrary", "Str", "AHK_Interface.dll", "Ptr")  ;confirmed the dll has been loaded
+MsgBox, %hModule% 
+success_ind := DllCall("AHK_Interface\add","Cdecl Str") ; The specified function could not be found inside the DLL.
+MsgBox, %success_ind% %ErrorLevel% ;gives error level of -4 here
+*/
+
+/*
+SetWorkingDir %A_ScriptDir%
+DllCall("LoadLibrary", "str", "AHK_Interface.dll")
+msgbox %ErrorLevel% ;good at this point
+success_ind := DllCall("AHK_Interface\TrackUsage") ;trying to call my method "TrackUsage" above
+MsgBox, %success_ind% %ErrorLevel% ;gives error level of -4 here
+
+ExitApp
+ */
+/*
+Run Notepad
+WinWait Untitled - Notepad
+SendMessage, 0xC, 0, "New Notepad Title"  ; 0XC is WM_SETTEXT
+/*
+ie := ComObjCreate("InternetExplorer.Application")
+ie.Visible := true  ; This is known to work incorrectly on IE7.
+ie.Navigate("https://autohotkey.com/")
+
+CLR_GetVersion(sver)
+MsgBox % sver
+
+CLR_GetVersion(ByRef sVer)
+{
+    VarSetCapacity(wsVer,40)
+    hr:=DllCall("MSCorEE\GetCORVersion","uint",&wsVer,"uint",20,"uint*",0)
+    sVer := COM_Ansi4Unicode(&wsVer)
+    return hr
+}
+
+/*
+SetWorkingDir %A_ScriptDir%
+DllCall("LoadLibrary", "str", "TestLib.dll")
+msgbox %ErrorLevel%
+result:= DllCall("TestLib\Demo2")
+MsgBox, %success_ind% %ErrorLevel% ;gives error level of -4 here
+--MsgBox,%result%
+
+DoEvents() {
+    global CSStaticCode
+    static firstCall, ClrAssembly, ClrStatic, ClrCode := ""
+            . "using System;"
+            . "using System.Windows.Forms;"
+            . "using System.Runtime.InteropServices;"
+            . "public class MqClassStaticWrapper {"
+            . "    public void DoEvents() {"
+            . "        Application.DoEvents();"
+            . "    }"
+            . "}"
+
+    if (!firstCall) {
+        firstCall   := True
+        ClrAssembly := CLR_CompileC#(ClrCode, "System.dll|System.Windows.Forms.dll")
+        ClrStatic   := CLR_CreateObject(ClrAssembly, "MqClassStaticWrapper")
+    }
+
+    ClrStatic.DoEvents()
+}
+
+hModule := DllCall("LoadLibrary", "Str", "TestLib.dll", "Ptr")
+result := DllCall("TestLib.dll\Demo","Cdecl Str")
+MsgBox,%result%
+
+DllCall("FreeLibrary", "Ptr", hModule)
+
+*/

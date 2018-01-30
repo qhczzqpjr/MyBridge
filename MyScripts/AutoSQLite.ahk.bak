@@ -1,0 +1,80 @@
+
+DBFileName :=  A_ScriptDir . "\testdb.db"  
+
+;run, %A_ScriptDir%
+
+RemoveToolTip:
+SetTimer, RemoveToolTip, Off
+ToolTip
+return
+
+SQLiteExecCallBack(DB, ColumnCount, ColumnValues, ColumnNames) 
+{
+   global ColumnNo
+   
+   This := Object(DB)
+   
+   offset = % ColumnNo * A_PtrSize
+   ToolTip, % StrGet(NumGet(ColumnValues + 0, "UInt"), "UTF-8") . "-" . StrGet(NumGet(ColumnNames + 0, offset, "UInt"), "UTF-8")
+   runpath := StrGet(NumGet(ColumnValues + 0, offset, "UInt"), "UTF-8")
+   Run, % runpath
+   SetTimer, RemoveToolTip, 5000
+   Return 0
+}
+WrapMe()
+{
+    global DBFileName
+    
+    JobName := Clipboard
+        
+    DB := new SQLiteDB
+
+    If !DB.OpenDB(DBFileName) {
+       MsgBox, 16, SQLite Error, % "Msg:`t" . DB.ErrorMsg . "`nCode:`t" . DB.ErrorCode
+       ExitApp
+    }
+    Sleep, 1000
+    SQL := "SELECT * FROM JobQuickVisit WHERE JobName='" JobName "'"
+    DB.Exec(SQL, "SQLiteExecCallBack")
+    
+     If !DB.CloseDB()
+       MsgBox, 16, SQLite Error, % "Msg:`t" . DB.ErrorMsg . "`nCode:`t" . DB.ErrorCode
+}
+
+#Numpad3::
+    ColumnNo = 2    
+    WrapMe()
+return
+
+#Numpad4::
+    ColumnNo = 2    
+    WrapMe()
+return
+
+
+#Numpad5::
+    ColumnNo = 3    
+    WrapMe()
+return
+
+ 
+#Numpad6::
+    ColumnNo = 4
+    WrapMe()
+return
+
+#Numpad7::
+    ColumnNo = 5
+    WrapMe()
+return
+
+#Numpad8::
+    ColumnNo = 6
+    WrapMe()
+return
+
+
+#Numpad9::
+    ColumnNo = 7
+    WrapMe()
+return

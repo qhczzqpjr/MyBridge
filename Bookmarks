@@ -1,0 +1,1888 @@
+{
+   "checksum": "575ed1920700b6a0403849b7e0de9615",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13078233990130529",
+            "id": "21",
+            "name": "Bookmarks",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "children": [ {
+               "date_added": "13020962553597005",
+               "id": "51",
+               "name": "百度云 网盘-全部文件",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://pan.baidu.com/disk/home"
+            }, {
+               "date_added": "13042115169578555",
+               "id": "52",
+               "meta_info": {
+                  "last_visited_desktop": "13154073747462125"
+               },
+               "name": "GitHub · Build software better, together.",
+               "sync_transaction_version": "73",
+               "type": "url",
+               "url": "https://github.com/"
+            }, {
+               "date_added": "13042221906955124",
+               "id": "54",
+               "name": "开源中国 - 找到您想要的开源项目，分享和交流",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://www.oschina.net/"
+            }, {
+               "children": [ {
+                  "date_added": "12985328703444812",
+                  "id": "97",
+                  "name": "51CTO.COM - 技术成就梦想 - 中国领先的IT技术网站",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.51cto.com/"
+               }, {
+                  "date_added": "13003306262129787",
+                  "id": "98",
+                  "name": "MSDN 网络广播首页",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://msdn.microsoft.com/zh-cn/dd796167.aspx"
+               }, {
+                  "date_added": "13082824646362653",
+                  "id": "42",
+                  "name": "Website Templates | Free Website Templates | WIX",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.wix.com/website/templates"
+               }, {
+                  "date_added": "13004014164013466",
+                  "id": "99",
+                  "name": "W3Schools Online Web Tutorials",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.w3schools.com/"
+               }, {
+                  "date_added": "12985328605997812",
+                  "id": "100",
+                  "name": "红黑联盟：十年电脑技术门户 IT精英梦想由此起航 (网络安全_黑客防御_编程_软件开发_系统网络)",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.2cto.com/"
+               }, {
+                  "date_added": "13034165597365377",
+                  "id": "101",
+                  "name": "Stack Overflow",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://stackoverflow.com/"
+               }, {
+                  "date_added": "13034877770792935",
+                  "id": "102",
+                  "name": "TechTarget, Where Serious Technology Buyers Decide",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.techtarget.com/"
+               }, {
+                  "date_added": "13044556716820390",
+                  "id": "103",
+                  "name": "Simple Talk: SQL Server and .Net articles, forums and blogs",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "https://www.simple-talk.com/"
+               }, {
+                  "date_added": "13044959283774488",
+                  "id": "104",
+                  "name": "Computing fundamentals Definitions - Glossary from WhatIs.com",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://whatis.techtarget.com/glossary/Computing-Fundamentals"
+               }, {
+                  "date_added": "13055394958633240",
+                  "id": "106",
+                  "name": "SQLBI",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.sqlbi.com/"
+               }, {
+                  "date_added": "13000209144761005",
+                  "id": "64",
+                  "name": "http--www.codeplex.com-",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.codeplex.com/"
+               } ],
+               "date_added": "13019207299098132",
+               "date_modified": "13091947634049492",
+               "id": "55",
+               "name": "BI商务智能",
+               "sync_transaction_version": "3",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13030380238627348",
+                  "id": "87",
+                  "name": "Personal Development for Smart People - Steve Pavlina",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.stevepavlina.com/"
+               }, {
+                  "date_added": "13076354320041708",
+                  "id": "123",
+                  "name": "时尚造就先生，先生定义时尚 - Esquire时尚先生网",
+                  "sync_transaction_version": "67",
+                  "type": "url",
+                  "url": "http://www.esquire.com.cn/"
+               }, {
+                  "date_added": "12990157989361668",
+                  "id": "88",
+                  "name": "eHow  How to Videos, Articles & More - Discover the expert in you.  eHow.com",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.ehow.com/"
+               }, {
+                  "date_added": "12999080162434943",
+                  "id": "89",
+                  "name": "50 Things Everyone Should Know How To Do",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.marcandangel.com/2008/06/02/50-things-everyone-should-know-how-to-do/"
+               }, {
+                  "date_added": "12992953806767025",
+                  "id": "90",
+                  "name": "Small Business Ideas and Resources for Entrepreneurs",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.inc.com/"
+               }, {
+                  "date_added": "12996571330394045",
+                  "id": "91",
+                  "name": "Ask.com - What's Your Question",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.ask.com/?o=102140&l=dir&qsrc=14137&oo=102140"
+               }, {
+                  "date_added": "13048862612872701",
+                  "id": "92",
+                  "name": "电影天堂_免费电影_迅雷电影下载",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.dytt8.net/"
+               }, {
+                  "date_added": "13048962095554078",
+                  "id": "94",
+                  "name": "互联网电影资料库_百度百科",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://baike.baidu.com/link?url=BNxjExb9rMbQ44brZfRdkb6BFzrMynGMbGuWEHZ-GUt5OpwQbS6k6SQHRQbrx7u_"
+               }, {
+                  "date_added": "13064079246047480",
+                  "id": "165",
+                  "meta_info": {
+                     "last_visited_desktop": "13151051368062600"
+                  },
+                  "name": "AcFun弹幕视频网 - 中国宅文化基地",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.acfun.tv/"
+               }, {
+                  "date_added": "13051639172046764",
+                  "id": "95",
+                  "name": "哔哩哔哩 - ( ゜- ゜)つロ 乾杯~ - bilibili",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.bilibili.com/"
+               }, {
+                  "date_added": "13064164283856561",
+                  "id": "164",
+                  "name": "ED2000资源共享,电驴下载,eD2k,BT种子",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.ed2000.com/"
+               }, {
+                  "date_added": "13021753286593784",
+                  "id": "96",
+                  "name": "世界之最 - 世界之最大全",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.souid.com/"
+               }, {
+                  "date_added": "13064167637765012",
+                  "id": "163",
+                  "name": "Style.com: The Online Home of Fashion: News, Runway Shows, Trends, Fashion Models, Designers, Shopping, Beauty, and Entertainment",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.style.com/"
+               }, {
+                  "date_added": "13084639554591534",
+                  "id": "166",
+                  "name": "飞鸟娱乐论坛 - 720P.MKV,1080P高清电影下载,百度网盘资源下载,高清RMVB电影下载, - 飞鸟娱乐论坛",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://bbs.hdbird.com/index.php"
+               }, {
+                  "date_added": "13085736089367873",
+                  "id": "162",
+                  "name": "型男网_男生服装搭配_男人穿衣打扮网_男士服装搭配网站",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.xmen.cc/"
+               }, {
+                  "date_added": "13088503590157237",
+                  "id": "187",
+                  "name": "上海住房公积金网",
+                  "sync_transaction_version": "70",
+                  "type": "url",
+                  "url": "http://www.shgjj.com/"
+               }, {
+                  "date_added": "13088504736706488",
+                  "id": "188",
+                  "name": "中国人大网",
+                  "sync_transaction_version": "70",
+                  "type": "url",
+                  "url": "http://www.npc.gov.cn/"
+               }, {
+                  "date_added": "13090749613211725",
+                  "id": "220",
+                  "name": "迅维网_中国主板维修基地_IT维修资讯_电脑手机维修资讯",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.chinafix.com/"
+               }, {
+                  "date_added": "13090750913802473",
+                  "id": "221",
+                  "name": "BT天堂吧 - BT天堂每天提供2015最新720P、1080P高清电影BT种子免注册下载",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.bttt8.cn/"
+               }, {
+                  "date_added": "13090781441399210",
+                  "id": "222",
+                  "name": "视觉中国官网",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.visualchina.com/"
+               }, {
+                  "date_added": "13090781465789497",
+                  "id": "223",
+                  "name": "天下网盟-网吧技术交流论坛 - Powered by Discuz!",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://bbs.txwm.com/"
+               }, {
+                  "date_added": "13091208460377167",
+                  "id": "219",
+                  "name": "EZTV - TV Torrents Online Series Download | Official",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "https://eztv.ag/"
+               }, {
+                  "date_added": "13092846398278674",
+                  "id": "249",
+                  "name": "给新手跑鞋指南 & 跑鞋选购指南",
+                  "sync_transaction_version": "166",
+                  "type": "url",
+                  "url": "http://www.douban.com/group/topic/29250231/"
+               } ],
+               "date_added": "13019207299264132",
+               "date_modified": "13092846398278674",
+               "id": "56",
+               "name": "生活管理",
+               "sync_transaction_version": "3",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13043688019002552",
+                  "id": "79",
+                  "name": "IT eBooks - Free Download - Big Library",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://it-ebooks.info/"
+               }, {
+                  "date_added": "13042208932659403",
+                  "id": "80",
+                  "meta_info": {
+                     "last_visited_desktop": "13152275917055262"
+                  },
+                  "name": "Microsoft eBooks",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://blogs.msdn.com/b/mssmallbiz/archive/2013/06/18/huge-collection-of-free-microsoft-ebooks-for-you-including-office-office-365-sharepoint-sql-server-system-center-visual-studio-web-development-windows-windows-azure-and-windows-server.aspx"
+               }, {
+                  "date_added": "13042740235636276",
+                  "id": "81",
+                  "meta_info": {
+                     "last_visited_desktop": "13136289908170431"
+                  },
+                  "name": ".NET Framework Class Library ()",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://msdn.microsoft.com/en-us/library/gg145045(v=vs.110).aspx"
+               }, {
+                  "date_added": "13043768197313207",
+                  "id": "82",
+                  "name": "OverDrive Digital Books",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://msl.lib.overdrive.com/"
+               }, {
+                  "date_added": "13046768048996004",
+                  "id": "83",
+                  "name": "Coursera",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "https://www.coursera.org/"
+               }, {
+                  "date_added": "13044444658663945",
+                  "id": "84",
+                  "name": "World Wide Web Consortium (W3C)",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.w3.org/"
+               }, {
+                  "date_added": "13047973457144468",
+                  "id": "85",
+                  "name": "The CoverPages",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://xml.coverpages.org/index.html"
+               }, {
+                  "date_added": "13040282548985197",
+                  "id": "86",
+                  "meta_info": {
+                     "last_visited_desktop": "13136289938740471"
+                  },
+                  "name": "Reference Source",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://referencesource.microsoft.com/"
+               }, {
+                  "date_added": "13084797707265025",
+                  "id": "124",
+                  "name": "VeryCD电驴大全 - 若能一切随他去，便是世间自在人",
+                  "sync_transaction_version": "68",
+                  "type": "url",
+                  "url": "http://www.verycd.com/"
+               }, {
+                  "date_added": "13064164283856561",
+                  "id": "160",
+                  "name": "ED2000资源共享,电驴下载,eD2k,BT种子",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.ed2000.com/"
+               }, {
+                  "date_added": "13045197406843386",
+                  "id": "68",
+                  "name": "TechNet Library Home",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://technet.microsoft.com/en-us/library/aa991542.aspx"
+               }, {
+                  "date_added": "13053551583830175",
+                  "id": "74",
+                  "name": "资源共享课 - 爱课程",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.icourses.cn/mooc/"
+               }, {
+                  "date_added": "13040971204714035",
+                  "id": "58",
+                  "name": "MSDN-the microsoft developer network",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://msdn.microsoft.com/dn308572#fbid=EZDCEX8CKqg"
+               }, {
+                  "date_added": "13124281714122771",
+                  "id": "394",
+                  "name": "Harvard Business Review - Ideas and Advice for Leaders",
+                  "type": "url",
+                  "url": "https://hbr.org/"
+               }, {
+                  "date_added": "13132050290380078",
+                  "id": "428",
+                  "name": "Google 学术搜索",
+                  "type": "url",
+                  "url": "https://scholar.google.com/"
+               } ],
+               "date_added": "13019207299265132",
+               "date_modified": "13132411524990195",
+               "id": "59",
+               "name": "图书馆",
+               "sync_transaction_version": "3",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13034877653321062",
+                  "id": "76",
+                  "name": "招聘_求职_找工作_上智联招聘人才网",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.zhaopin.com/"
+               }, {
+                  "date_added": "13034877664401494",
+                  "id": "77",
+                  "name": "Message Center--My51job--个人服务",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://my.51job.com/my/48225098/My_Pmc.php?2041516326"
+               }, {
+                  "date_added": "13034879964522084",
+                  "id": "78",
+                  "name": "找工作|找人才|中国领先的社交招聘网-若邻网",
+                  "sync_transaction_version": "3",
+                  "type": "url",
+                  "url": "http://www.wealink.com/user/welcome/index/"
+               } ],
+               "date_added": "13034875602104879",
+               "date_modified": "13087456659034584",
+               "id": "61",
+               "name": "招聘",
+               "sync_transaction_version": "3",
+               "type": "folder"
+            }, {
+               "date_added": "13041400965270300",
+               "id": "65",
+               "meta_info": {
+                  "last_visited_desktop": "13135424295584551"
+               },
+               "name": "Error Message Of SQL SERVER",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://sqlserverlearner.com/sql-server-error-list/sql-server-error-messages-list-0-to-1000"
+            }, {
+               "date_added": "13045157064175416",
+               "id": "66",
+               "name": "Security and Identity (Windows)",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://msdn.microsoft.com/en-us/library/windows/desktop/ee663293(v=vs.85).aspx"
+            }, {
+               "date_added": "13045157074303416",
+               "id": "67",
+               "name": "System Services (Windows)",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://msdn.microsoft.com/en-us/library/windows/desktop/ee663297(v=vs.85).aspx"
+            }, {
+               "date_added": "13045834168014442",
+               "id": "69",
+               "name": "Developing with Visual Studio .NET",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://msdn.microsoft.com/en-us/library/h8w79z10(v=vs.71).aspx"
+            }, {
+               "date_added": "13053109966304118",
+               "id": "72",
+               "name": "Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace-Alibaba.com",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://www.alibaba.com/"
+            }, {
+               "date_added": "13059047157327853",
+               "id": "75",
+               "name": "Tutorials for Tika, DOM, AngularJS, IMS-DB, NGN, Sed, WCF, JPA, Apache POI, Signals and Systems, JOGL, DB2, PhoneGap, SVG, VSAM, COBOL, XSD, XPath, Redis, XSLT, Java XML, VBA, JFreeChart, Lucene, Selenium, DTD, Powerpoint, Tcl/Tk, XML, Software Engineerin",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://www.tutorialspoint.com/"
+            }, {
+               "date_added": "13082666931311583",
+               "id": "154",
+               "name": "LINQPad - The .NET Programmer's Playground",
+               "sync_transaction_version": "46",
+               "type": "url",
+               "url": "http://www.linqpad.net/"
+            }, {
+               "children": [ {
+                  "date_added": "13082141065657647",
+                  "id": "167",
+                  "name": "莎莎微信编辑器-微信图文编辑器-微信推送文章编辑助理-微信图文编辑软件NO.1-绝对够范！",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://wx1.sasadown.cn/#"
+               }, {
+                  "date_added": "13082143662613099",
+                  "id": "174",
+                  "name": "微信公众平台开发者文档",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://mp.weixin.qq.com/wiki/home/index.html"
+               }, {
+                  "date_added": "13082140801893824",
+                  "id": "172",
+                  "name": "微信公众平台开发入门教程 - 方倍工作室 - 博客园",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.cnblogs.com/txw1958/p/wechat-tutorial.html#!comments"
+               }, {
+                  "date_added": "13082496645118802",
+                  "id": "171",
+                  "name": "易企秀|免费H5页面移动场景应用制作与自营销管家",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://eqxiu.com/#/main"
+               }, {
+                  "date_added": "13082568398834896",
+                  "id": "170",
+                  "name": "千图网_中国最大免费素材下载网站_免费设计图片",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.58pic.com/"
+               }, {
+                  "date_added": "13082572574465964",
+                  "id": "168",
+                  "name": "花体字体在线生成器 花体字转换器",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.qt86.com/flower.php"
+               }, {
+                  "date_added": "13082572584101852",
+                  "id": "173",
+                  "name": "音效 音效素材 音效网 音效下载",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://sc.chinaz.com/yinxiao/"
+               }, {
+                  "date_added": "13082573058457463",
+                  "id": "169",
+                  "name": "TOPYS | 全球顶尖创意分享平台 OPEN YOUR MIND | 最新招聘",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://www.topys.cn/"
+               } ],
+               "date_added": "13082141093482816",
+               "date_modified": "13091947634049484",
+               "id": "155",
+               "name": "微信",
+               "sync_transaction_version": "46",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13080842730951161",
+                     "id": "179",
+                     "name": "持续改善_百度百科",
+                     "sync_transaction_version": "46",
+                     "type": "url",
+                     "url": "http://baike.baidu.com/link?url=QeGPPiuYSWn6mw335rqOsqXSJnShDwF_907GV5uPUYuUCcVaUqyvDjIRwMlChUilfaFXYTVX73eSD111uBfoaq"
+                  } ],
+                  "date_added": "13082143693325855",
+                  "date_modified": "13087879967172387",
+                  "id": "178",
+                  "name": "制造业",
+                  "sync_transaction_version": "46",
+                  "type": "folder"
+               }, {
+                  "date_added": "13029009512758991",
+                  "id": "53",
+                  "name": "Information for the World's Business Leaders - Forbes.com",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.forbes.com/"
+               }, {
+                  "date_added": "13040320574753734",
+                  "id": "63",
+                  "name": "Stock Comparison - NASDAQ.com",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.nasdaq.com/quotes/stock-comparison.aspx"
+               }, {
+                  "date_added": "13090749687522197",
+                  "id": "226",
+                  "meta_info": {
+                     "last_visited_desktop": "13143540638588923"
+                  },
+                  "name": "Investopedia - Educating the world about finance",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.investopedia.com/"
+               } ],
+               "date_added": "13082143683822365",
+               "date_modified": "13091947634049477",
+               "id": "157",
+               "name": "业务知识",
+               "sync_transaction_version": "46",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13082313155025269",
+                  "id": "175",
+                  "name": "打造自己的vim界面--用winmanager合并显示NERDTree和TagList - 楼心月 - 博客园",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.cnblogs.com/ifys/archive/2010/10/24/1860610.html"
+               }, {
+                  "date_added": "13082313188832777",
+                  "id": "177",
+                  "name": "Vim as Python IDE on windows（转） - 茄子_2008 - 博客园",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.cnblogs.com/xd502djj/archive/2010/09/16/1827683.html"
+               }, {
+                  "date_added": "13082318393211307",
+                  "id": "176",
+                  "name": "使用vundle管理vim插件 - sww_simpcity的专栏 - 博客频道 - CSDN.NET",
+                  "sync_transaction_version": "46",
+                  "type": "url",
+                  "url": "http://blog.csdn.net/sww_simpcity/article/details/18504071"
+               }, {
+                  "date_added": "13038908031176107",
+                  "id": "35",
+                  "name": "简明 Vim 练级攻略 | 酷 壳 - CoolShell.cn",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://coolshell.cn/articles/5426.html"
+               }, {
+                  "date_added": "13082320545710670",
+                  "id": "150",
+                  "name": "scrooloose/syntastic",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "https://github.com/scrooloose/syntastic"
+               }, {
+                  "date_added": "13089616898562099",
+                  "id": "225",
+                  "name": "[转] 最佳vim技巧 - napoleon_liu - 博客园",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.cnblogs.com/napoleon_liu/articles/1988535.html"
+               }, {
+                  "date_added": "13089617269853320",
+                  "id": "224",
+                  "name": "超过 130 个你需要了解的 vim 命令 - 开源中国社区",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.oschina.net/news/43167/130-essential-vim-commands"
+               }, {
+                  "date_added": "13116936355828669",
+                  "id": "356",
+                  "name": "AutoHotkey",
+                  "type": "url",
+                  "url": "https://autohotkey.com/"
+               } ],
+               "date_added": "13082313174502394",
+               "date_modified": "13117027825946661",
+               "id": "156",
+               "name": "Vim",
+               "sync_transaction_version": "46",
+               "type": "folder"
+            }, {
+               "date_added": "13090837475461480",
+               "id": "215",
+               "name": "https://cgifederal.secure.force.com",
+               "sync_transaction_version": "147",
+               "type": "url",
+               "url": "https://cgifederal.secure.force.com/"
+            }, {
+               "children": [ {
+                  "date_added": "13048415206975464",
+                  "id": "71",
+                  "name": ".NET Blog - Site Home - MSDN Blogs",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://blogs.msdn.com/b/dotnet/"
+               }, {
+                  "date_added": "13046866573372010",
+                  "id": "70",
+                  "name": "Hey, Scripting Guy! Blog - Site Home - TechNet Blogs",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://blogs.technet.com/b/heyscriptingguy/?pi144796=2"
+               }, {
+                  "date_added": "13082663143949977",
+                  "id": "161",
+                  "name": "Paul S. Randal - In Recovery...",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.sqlskills.com/blogs/paul/"
+               }, {
+                  "date_added": "13041097926657330",
+                  "id": "105",
+                  "meta_info": {
+                     "last_visited_desktop": "13139661633566605"
+                  },
+                  "name": "sqlblog.com",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://sqlblog.com/"
+               }, {
+                  "date_added": "13082660024935305",
+                  "id": "147",
+                  "name": "Mark S. Rasmussen",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://improve.dk/"
+               }, {
+                  "date_added": "13086192441168751",
+                  "id": "48",
+                  "name": "Google Testing Blog",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://googletesting.blogspot.com/"
+               }, {
+                  "date_added": "13089614664182810",
+                  "id": "228",
+                  "name": "Glenn Berry's SQL Server Performance - Blogs - SQLServerCentral",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.sqlservercentral.com/blogs/glennberry/"
+               }, {
+                  "date_added": "13084817077310613",
+                  "id": "142",
+                  "name": "Dennis Gao - 博客园 算法",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://www.cnblogs.com/gaochundong/"
+               }, {
+                  "date_added": "13084817036770683",
+                  "id": "152",
+                  "name": "[你必须知道的异步编程]——异步编程模型(APM) - xinke453的专栏 - 博客频道 - CSDN.NET",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://blog.csdn.net/xinke453/article/details/37810823"
+               }, {
+                  "date_added": "13090263704513386",
+                  "id": "227",
+                  "name": "Page Free Space : Temporary Tables in Stored Procedures",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://sqlblog.com/blogs/paul_white/archive/2012/08/15/temporary-tables-in-stored-procedures.aspx"
+               }, {
+                  "date_added": "13090265108380175",
+                  "id": "229",
+                  "name": "SQLPerformance.com - powered by SQL Sentry",
+                  "sync_transaction_version": "144",
+                  "type": "url",
+                  "url": "http://sqlperformance.com/"
+               }, {
+                  "date_added": "13137601746596608",
+                  "id": "459",
+                  "meta_info": {
+                     "last_visited_desktop": "13137604273551595"
+                  },
+                  "name": "Slava Oks's WebLog",
+                  "type": "url",
+                  "url": "https://blogs.msdn.microsoft.com/slavao/"
+               }, {
+                  "date_added": "13138880199190585",
+                  "id": "465",
+                  "meta_info": {
+                     "last_visited_desktop": "13138880230753364"
+                  },
+                  "name": "Home | SQL Server KIT",
+                  "type": "url",
+                  "url": "http://sqlserver-kit.org/en"
+               }, {
+                  "date_added": "13138957495481781",
+                  "id": "467",
+                  "meta_info": {
+                     "last_visited_desktop": "13139286812676595"
+                  },
+                  "name": "Greg Low (The Bit Bucket: IDisposable)",
+                  "type": "url",
+                  "url": "http://sqlblog.com/blogs/greg_low/default.aspx"
+               }, {
+                  "date_added": "13139653596428227",
+                  "id": "472",
+                  "meta_info": {
+                     "last_visited_desktop": "13139653596428932"
+                  },
+                  "name": "MSSQLWIKI",
+                  "type": "url",
+                  "url": "https://mssqlwiki.com/"
+               } ],
+               "date_added": "13089614724997235",
+               "date_modified": "13140861678399849",
+               "id": "218",
+               "name": "Blog",
+               "sync_transaction_version": "144",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13091877997884550",
+                  "id": "213",
+                  "name": "BimlScript | Home",
+                  "sync_transaction_version": "147",
+                  "type": "url",
+                  "url": "http://bimlscript.com/"
+               }, {
+                  "date_added": "13092073019763346",
+                  "id": "235",
+                  "name": "Varigence.com - Api",
+                  "sync_transaction_version": "147",
+                  "type": "url",
+                  "url": "https://www.varigence.com/Documentation/Api/Index"
+               }, {
+                  "date_added": "13091953725014698",
+                  "id": "230",
+                  "name": "BIML IV– Extracting All Tables to Raw Files | Paul te Braak",
+                  "sync_transaction_version": "147",
+                  "type": "url",
+                  "url": "https://paultebraak.wordpress.com/2014/11/10/biml-iv-extracting-all-tables-to-raw-files/"
+               }, {
+                  "date_added": "13091967435865995",
+                  "id": "233",
+                  "name": "BI Thoughts and Theories » Blog Archive » Creating Tables using Biml and BimlScript",
+                  "sync_transaction_version": "147",
+                  "type": "url",
+                  "url": "http://agilebi.com/jwelch/2011/05/26/creating-tables-using-biml-and-bimlscript/"
+               }, {
+                  "date_added": "13092074129727873",
+                  "id": "236",
+                  "name": "Varigence.com - Forum",
+                  "sync_transaction_version": "147",
+                  "type": "url",
+                  "url": "https://www.varigence.com/Forums?threadID=210"
+               }, {
+                  "date_added": "13092074689382145",
+                  "id": "237",
+                  "name": "BIDS Helper - Documentation",
+                  "sync_transaction_version": "147",
+                  "type": "url",
+                  "url": "https://bidshelper.codeplex.com/documentation"
+               }, {
+                  "date_added": "13125056710994138",
+                  "id": "397",
+                  "meta_info": {
+                     "last_visited_desktop": "13153556193928396"
+                  },
+                  "name": "Varigence.com - Samples",
+                  "type": "url",
+                  "url": "https://www.varigence.com/Documentation/Samples/"
+               } ],
+               "date_added": "13092073041027493",
+               "date_modified": "13125464824857473",
+               "id": "234",
+               "name": "ETL",
+               "sync_transaction_version": "147",
+               "type": "folder"
+            } ],
+            "date_added": "13019207298900132",
+            "date_modified": "13097043823878875",
+            "id": "23",
+            "name": "工具箱",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13067615824432643",
+               "id": "133",
+               "meta_info": {
+                  "last_visited_desktop": "13150807067153302"
+               },
+               "name": "UCI Machine Learning Repository",
+               "sync_transaction_version": "46",
+               "type": "url",
+               "url": "http://archive.ics.uci.edu/ml/"
+            }, {
+               "date_added": "13082434381186327",
+               "id": "151",
+               "meta_info": {
+                  "last_visited_desktop": "13150806873810738"
+               },
+               "name": "跟我一起学习VIM - The Life Changing Editor - 为程序员服务",
+               "sync_transaction_version": "46",
+               "type": "url",
+               "url": "http://ju.outofmemory.cn/entry/79671"
+            }, {
+               "date_added": "13086091047391778",
+               "id": "47",
+               "meta_info": {
+                  "last_visited_desktop": "13150806895179776"
+               },
+               "name": "Introducing the Guide",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://msdn.microsoft.com/en-us/library/ee658096.aspx"
+            }, {
+               "date_added": "13083787774543553",
+               "id": "128",
+               "meta_info": {
+                  "last_visited_desktop": "13146830888032555"
+               },
+               "name": "@计算机原理学习（3）-- 内存工作原理 - 念念红尘的技术专栏 - 博客频道 - CSDN.NET",
+               "sync_transaction_version": "46",
+               "type": "url",
+               "url": "http://blog.csdn.net/cc_net/article/details/11097267"
+            }, {
+               "date_added": "13098790841492028",
+               "id": "277",
+               "name": "133 Keyboard Shortcuts for Chrome",
+               "type": "url",
+               "url": "http://www.shortcutworld.com/en/linux/Chrome.html"
+            }, {
+               "date_added": "13103891993639066",
+               "id": "292",
+               "name": "Adam Machanic : SQL University: Parallelism Week - Introduction",
+               "type": "url",
+               "url": "http://sqlblog.com/blogs/adam_machanic/archive/2010/05/24/sql-university-parallelism-week-introduction.aspx"
+            }, {
+               "date_added": "13106026259185153",
+               "id": "296",
+               "name": "Microsoft API and Reference Catalog",
+               "type": "url",
+               "url": "https://msdn.microsoft.com/library?url=/library/dnvs05/html/vsgenerics.asp"
+            }, {
+               "date_added": "13103374919715868",
+               "id": "289",
+               "meta_info": {
+                  "last_visited_desktop": "13150807155384882"
+               },
+               "name": "HTTP - Hypertext Transfer Protocol Overview",
+               "type": "url",
+               "url": "https://www.w3.org/Protocols/"
+            }, {
+               "date_added": "13112076471512255",
+               "id": "315",
+               "meta_info": {
+                  "last_visited_desktop": "13150807193552142"
+               },
+               "name": "Projects | AMPLab – UC Berkeley",
+               "type": "url",
+               "url": "https://amplab.cs.berkeley.edu/projects/"
+            } ],
+            "date_added": "13045380113589456",
+            "date_modified": "13112447381029281",
+            "id": "25",
+            "name": "Temp",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "date_added": "13056187612877980",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13152617536427109"
+            },
+            "name": "查百科",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "http://baike.baidu.com/"
+         }, {
+            "children": [ {
+               "date_added": "13036256039590751",
+               "id": "159",
+               "name": "Sina",
+               "sync_transaction_version": "168",
+               "type": "url",
+               "url": "http://m0.mail.sina.com.cn/classic/index.php#action=maillist&fid=new&title=%25E6%2594%25B6%25E4%25BB%25B6%25E5%25A4%25B9&pagecount=18&pageno=1&order=htime&sorttype=desc&type=0&tag=-1&fulltext&mid=025897F776C7674E98275609B7CEC74A9500000000000001"
+            }, {
+               "date_added": "13076305861707410",
+               "id": "158",
+               "meta_info": {
+                  "last_visited_desktop": "13147933556190775"
+               },
+               "name": "Yahoo",
+               "sync_transaction_version": "46",
+               "type": "url",
+               "url": "https://us-mg5.mail.yahoo.com/neo/launch?.rand=ao2vu9k4dlq8n"
+            } ],
+            "date_added": "13019207298902132",
+            "date_modified": "13093629850847790",
+            "id": "126",
+            "name": "查邮件",
+            "sync_transaction_version": "46",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13087304487428959",
+               "id": "14",
+               "meta_info": {
+                  "last_visited_desktop": "13141877718813870"
+               },
+               "name": "Citi Technology Catalog",
+               "sync_transaction_version": "9",
+               "type": "url",
+               "url": "https://archcntr.nam.nsroot.net/Archcntr/Tools/Ctc/home/default.aspx?tab=0"
+            }, {
+               "date_added": "13087294026184111",
+               "id": "9",
+               "meta_info": {
+                  "last_visited_desktop": "13153894345896793"
+               },
+               "name": "TRS",
+               "sync_transaction_version": "38",
+               "type": "url",
+               "url": "https://ptsw.nam.nsroot.net/PMTOOLS/ptsw/trs"
+            }, {
+               "date_added": "13087297472669691",
+               "id": "10",
+               "meta_info": {
+                  "last_visited_desktop": "13153554127260714"
+               },
+               "name": "MeCiti - Citi For You",
+               "sync_transaction_version": "40",
+               "type": "url",
+               "url": "https://citiforyou.citigroup.net/en-us/Pages/Home.aspx"
+            }, {
+               "date_added": "13087292063455890",
+               "id": "6",
+               "meta_info": {
+                  "last_visited_desktop": "13147238855830278"
+               },
+               "name": "OneReset",
+               "sync_transaction_version": "15",
+               "type": "url",
+               "url": "https://onereset.citigroup.net/OneReset/"
+            }, {
+               "date_added": "13087906318886503",
+               "id": "182",
+               "name": "P2P",
+               "sync_transaction_version": "57",
+               "type": "url",
+               "url": "https://portal.p2p.citigroup.net/LoginApp/faces/P2PLogin?target=%2Foam%2Fserver%2Fobrareq.cgi%3Fencquery%3DBzCvjlB8ecPuN7ks8HJXooTe%2B4%2Bf0yERpGyyA4lIGFX6%2BfbKLi04NWDKGTVgZjBVyanXyAylz0V1i3Zo76V8bwaUEC71PDqdlf%2FRiQQgopIRR8%2BpsDXMl5MFoqIgC1UwV1zxGtuO0Th%2BHxV9T00TtQQB6s8yiB2Zc1EZ082msDxi4otOTw4y5N2QpX%2B7cbSJ%2BgIKO5Pj97Yp41v9DZXFqaqfuVuO%2FTeXuEs3pCd%2FyOGW9%2BmF0sCrs%2F3oYpjISmnacFuvbDdtD1ERMgvur0%2FVwV3A%2Bpfhf6tLWDKKaAZeUWT7fisv0E%2Ftv8baXzCcSNXju6afAEb9gwJSAdRGBZT5Pnb%2F9VQi1UnsmiDrlVUlzEfNwuMe%2Bd2aa2KBp9iiEqaJAlSoqeWf%2BZC1VNPrPfWtUA%3D%3D+agentid%3Dp2pprod_webcenter+ver%3D1+crmethod%3D2&_afrWindowMode=0&smAgentName=8VKoFO+D15+lL6NHroelxB+uP8wM0tJ6o1unNDfGvCm6jUhrPWGj0C%2Fu023uvph6&_afrLoop=1947529045885970&_adf.ctrl-state=1cbetho7dd_4"
+            }, {
+               "date_added": "13087987992360935",
+               "id": "183",
+               "meta_info": {
+                  "last_visited_desktop": "13153392841941218"
+               },
+               "name": "Collaborate - Welcome | Citi Collaborate",
+               "sync_transaction_version": "167",
+               "type": "url",
+               "url": "https://collaborate.citi.net/welcome"
+            }, {
+               "date_added": "13092744765058647",
+               "id": "244",
+               "meta_info": {
+                  "last_visited_desktop": "13153978443324676"
+               },
+               "name": "Citi Time Management",
+               "sync_transaction_version": "162",
+               "type": "url",
+               "url": "https://citi.tms.east.citigroup.net/ctmseast/"
+            }, {
+               "date_added": "13092940623212053",
+               "id": "248",
+               "name": "Citi Remote Office Web Portal",
+               "sync_transaction_version": "166",
+               "type": "url",
+               "url": "https://site01.remoteoffice.citigroup.com/dana-na/auth/url_default/welcome.cgi"
+            }, {
+               "date_added": "13093113015315721",
+               "id": "245",
+               "name": "Training & Development",
+               "sync_transaction_version": "165",
+               "type": "url",
+               "url": "https://cmp.nj.ssmb.com/marketplace/control/category/~category_id=LD"
+            }, {
+               "date_added": "13093629850847790",
+               "id": "252",
+               "name": "Citi Global Directory",
+               "sync_transaction_version": "171",
+               "type": "url",
+               "url": "http://gdir.nam.nsroot.net/globaldir_new/gdir_result_detail.aspx"
+            }, {
+               "date_added": "13094732268972751",
+               "id": "256",
+               "meta_info": {
+                  "last_visited_desktop": "13134213620027889"
+               },
+               "name": "Information Security- IS Course Catalog",
+               "type": "url",
+               "url": "http://www.citigroup.net/informationsecurity/catalog.htm"
+            }, {
+               "date_added": "13095230704218451",
+               "id": "259",
+               "meta_info": {
+                  "last_visited_desktop": "13138425159737118"
+               },
+               "name": "DBTools - Data Compare",
+               "type": "url",
+               "url": "http://oceanap01d.nam.nsroot.net:8180/citicommons/project/DBTools/index.jsp"
+            }, {
+               "date_added": "13117789075965313",
+               "id": "361",
+               "meta_info": {
+                  "last_visited_desktop": "13142403468781661"
+               },
+               "name": "Citi Lean Digital Training Academy | Citi Collaborate",
+               "type": "url",
+               "url": "https://collaborate.citi.net/docs/DOC-233279"
+            }, {
+               "date_added": "13091261560447440",
+               "id": "210",
+               "name": "Citi Trainings",
+               "sync_transaction_version": "130",
+               "type": "url",
+               "url": "http://www.citigroup.net/citiforyou/appmanager/cfyportal/cfydesktop?_nfpb=true&_windowLabel=lndmylearning&_nffvid=%2Fcitiforyou%2Fportlets%2Flndmyorganization%2FLNDmyorganization.faces&_pageLabel=cfyportal_LNDlandingpage"
+            }, {
+               "date_added": "13121230787301633",
+               "id": "376",
+               "meta_info": {
+                  "last_visited_desktop": "13134820399955864"
+               },
+               "name": "Citi Learning",
+               "type": "url",
+               "url": "http://www.citigroup.net/functionallearning/catalog.html#"
+            }, {
+               "date_added": "13129707978799397",
+               "id": "409",
+               "name": "Citi Learning",
+               "type": "url",
+               "url": "http://www.citigroup.net/functionallearning/catalog-ek.html#"
+            }, {
+               "date_added": "13129719413441417",
+               "id": "410",
+               "meta_info": {
+                  "last_visited_desktop": "13152697648135325"
+               },
+               "name": "GTMS",
+               "type": "url",
+               "url": "https://talent.citigroup.net/GTMS/Default.aspx"
+            }, {
+               "date_added": "13134104901020571",
+               "id": "439",
+               "meta_info": {
+                  "last_visited_desktop": "13134121272948432"
+               },
+               "name": "Leadership & Professional Development Library",
+               "type": "url",
+               "url": "https://library.s4k.com/citi_220/default.aspx"
+            }, {
+               "date_added": "13135255021626076",
+               "id": "443",
+               "meta_info": {
+                  "last_visited_desktop": "13141115251132571"
+               },
+               "name": "LMS - Citi Velocity",
+               "type": "url",
+               "url": "https://www.citivelocity.com/cv2/go/MarketBuzzUniversity/X19GUl9fpyb7i03ed3m9"
+            }, {
+               "date_added": "13136625722354954",
+               "id": "447",
+               "meta_info": {
+                  "last_visited_desktop": "13149675255220154"
+               },
+               "name": "Portfolio Tracking System - Workspace (PTS-W)",
+               "type": "url",
+               "url": "https://ptsw.nam.nsroot.net/PMTOOLS/ptsw/common/pghome.aspx"
+            }, {
+               "date_added": "13137231220727783",
+               "id": "452",
+               "meta_info": {
+                  "last_visited_desktop": "13137231220728165"
+               },
+               "name": "CitiPolicy",
+               "type": "url",
+               "url": "https://policydirectory.citi.net/cpd/pages/default.aspx"
+            }, {
+               "date_added": "13138192977585528",
+               "id": "460",
+               "meta_info": {
+                  "last_visited_desktop": "13138192977586341"
+               },
+               "name": "Home - Trade Union",
+               "type": "url",
+               "url": "https://knowledgemanagement.apac.nsroot.net/TeamSite/CSTS/Trade_Union/default.aspx"
+            }, {
+               "date_added": "13140861678399849",
+               "id": "475",
+               "meta_info": {
+                  "last_visited_desktop": "13144733819012428"
+               },
+               "name": "NAM WCC Instances",
+               "type": "url",
+               "url": "https://globalconsumer.collaborationtools.consumer.citigroup.net/sites/Autosys/autosys/R11.3.6/Shared%20Documents/PubDocs/NAM%20Workload%20Control%20Center%20Pages.htm"
+            }, {
+               "date_added": "13144904607834788",
+               "id": "498",
+               "meta_info": {
+                  "last_visited_desktop": "13150352301763563"
+               },
+               "name": "IS Course Catalog",
+               "type": "url",
+               "url": "http://www.citigroup.net/informationsecurity/catalog.htm#category-filter:path=.dd1-ssdlc|category-filter:path=default|sort:path~type~order=.title~text~asc"
+            }, {
+               "date_added": "13144907751062324",
+               "id": "499",
+               "meta_info": {
+                  "last_visited_desktop": "13153219993617263"
+               },
+               "name": "CMP",
+               "type": "url",
+               "url": "https://cmp.nj.ssmb.com/marketplace/control/main"
+            }, {
+               "date_added": "13147867458681074",
+               "id": "525",
+               "meta_info": {
+                  "last_visited_desktop": "13152939621633498"
+               },
+               "name": "O&T Standards & Policy",
+               "type": "url",
+               "url": "https://catecollaboration.citigroup.net/standards/default.aspx"
+            }, {
+               "date_added": "13152379638704649",
+               "id": "540",
+               "meta_info": {
+                  "last_visited_desktop": "13152379638705553"
+               },
+               "name": "Khan Academy",
+               "type": "url",
+               "url": "https://www.khanacademy.org/"
+            } ],
+            "date_added": "13087456741616949",
+            "date_modified": "13152379651225593",
+            "id": "110",
+            "name": "CityLinks",
+            "sync_transaction_version": "8",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13088865081116377",
+               "id": "192",
+               "name": "海词词典_在线词典_在线翻译_海量正版权威词典官方网站",
+               "sync_transaction_version": "79",
+               "type": "url",
+               "url": "http://dict.cn/"
+            }, {
+               "date_added": "13088865113434173",
+               "id": "194",
+               "name": "Google",
+               "sync_transaction_version": "140",
+               "type": "url",
+               "url": "https://www.google.com/?gws_rd=ssl"
+            }, {
+               "date_added": "13051017793454651",
+               "id": "26",
+               "meta_info": {
+                  "last_visited_desktop": "13153224748643615"
+               },
+               "name": "Baidu",
+               "sync_transaction_version": "87",
+               "type": "url",
+               "url": "http://www.baidu.com/"
+            }, {
+               "date_added": "13088865187802190",
+               "id": "195",
+               "meta_info": {
+                  "last_visited_desktop": "13143540638588923"
+               },
+               "name": "Investopedia - Educating the world about finance",
+               "sync_transaction_version": "90",
+               "type": "url",
+               "url": "http://www.investopedia.com/"
+            }, {
+               "date_added": "13088865207166278",
+               "id": "196",
+               "name": "Wikipedia, the free encyclopedia",
+               "sync_transaction_version": "93",
+               "type": "url",
+               "url": "https://en.wikipedia.org/wiki/Main_Page"
+            }, {
+               "date_added": "13088865230792095",
+               "id": "197",
+               "name": "MBA智库百科，全球最大的中文经管百科",
+               "sync_transaction_version": "96",
+               "type": "url",
+               "url": "http://wiki.mbalib.com/wiki/%E9%A6%96%E9%A1%B5"
+            } ],
+            "date_added": "13088865103772002",
+            "date_modified": "13088865240596601",
+            "id": "193",
+            "name": "Workspace",
+            "sync_transaction_version": "81",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13116913556819001",
+               "id": "355",
+               "meta_info": {
+                  "last_visited_desktop": "13150807262041222"
+               },
+               "name": "TaskToMe",
+               "type": "url",
+               "url": "http://tfs.wlb2.eur.nsroot.net:8080/tfs/Jupiter/Speed.Git/_workitems#path=My+Queries%2FToMe&_a=query"
+            }, {
+               "date_added": "13107936451725188",
+               "id": "308",
+               "meta_info": {
+                  "last_visited_desktop": "13150530012667778"
+               },
+               "name": "Tsql",
+               "type": "url",
+               "url": "http://tfs.wlb2.eur.nsroot.net:8080/tfs/Jupiter/Data_Sphere.Data_Sphere/_git/Tsql.speeddb.Git"
+            }, {
+               "date_added": "13116913240077373",
+               "id": "352",
+               "meta_info": {
+                  "last_visited_desktop": "13137142288034365"
+               },
+               "name": "Fauna",
+               "type": "url",
+               "url": "http://tfs.wlb2.eur.nsroot.net:8080/tfs/Jupiter/Data_Sphere.Data_Sphere/_git/Fauna.DB.Git"
+            }, {
+               "date_added": "13087639869403358",
+               "id": "116",
+               "meta_info": {
+                  "last_visited_desktop": "13139549349921581"
+               },
+               "name": "Jenkins",
+               "sync_transaction_version": "43",
+               "type": "url",
+               "url": "http://speedappdev:1201/"
+            }, {
+               "date_added": "13118318619096172",
+               "id": "365",
+               "meta_info": {
+                  "last_visited_desktop": "13152961375660216"
+               },
+               "name": "UCDeploy",
+               "type": "url",
+               "url": "https://releasedeployment.ti.citigroup.net:8443/#dashboard"
+            }, {
+               "date_added": "13087631213896218",
+               "id": "114",
+               "meta_info": {
+                  "last_visited_desktop": "13153290742185150"
+               },
+               "name": "ServiceNow",
+               "sync_transaction_version": "42",
+               "type": "url",
+               "url": "https://servicemanagement.citigroup.net/"
+            }, {
+               "date_added": "13116913429939863",
+               "id": "354",
+               "meta_info": {
+                  "last_visited_desktop": "13133529400551990"
+               },
+               "name": "Wiki Data Sphere Release ",
+               "type": "url",
+               "url": "https://cedt-confluence.nam.nsroot.net/confluence/display/156762/Data+Sphere+Release+List"
+            }, {
+               "date_added": "13087648177282456",
+               "id": "118",
+               "meta_info": {
+                  "last_visited_desktop": "13148048129648707"
+               },
+               "name": "WCC",
+               "sync_transaction_version": "44",
+               "type": "url",
+               "url": "https://tiawccap001swq.nam.nsroot.net:8443/wcc/login/applicationLogin.faces"
+            }, {
+               "date_added": "13131451207420289",
+               "id": "416",
+               "meta_info": {
+                  "last_visited_desktop": "13148050529664223"
+               },
+               "name": "DV-WCC",
+               "type": "url",
+               "url": "https://tiawccap011mwp.nam.nsroot.net:8443/wcc/ui/Login.html"
+            }, {
+               "date_added": "13131600684209882",
+               "id": "419",
+               "meta_info": {
+                  "last_visited_desktop": "13150951182444865"
+               },
+               "name": "UA6-WCC",
+               "type": "url",
+               "url": "https://tiawccap012swp.nam.nsroot.net:8443/wcc/ui/Launcher.html"
+            }, {
+               "date_added": "13131799881598086",
+               "id": "424",
+               "meta_info": {
+                  "last_visited_desktop": "13148356548677019"
+               },
+               "name": "UA5-WCC",
+               "type": "url",
+               "url": "https://tiawccap012mwp.nam.nsroot.net:8443/wcc/ui/Login.html"
+            }, {
+               "date_added": "13132049184185219",
+               "id": "427",
+               "meta_info": {
+                  "last_visited_desktop": "13146133716279757"
+               },
+               "name": "JIL_Check",
+               "type": "url",
+               "url": "http://tiajawap004swp.nam.nsroot.net/index.cgi"
+            }, {
+               "date_added": "13134106952934653",
+               "id": "440",
+               "meta_info": {
+                  "last_visited_desktop": "13134214013526571"
+               },
+               "name": "GSM Regulatory Meeting - DhruvView",
+               "type": "url",
+               "url": "https://globalconsumer.collaborationtools.consumer.citigroup.net/sites/CMB_RMBS/SPIRIT1/Shared%20Documents/Forms/DhruvView.aspx?RootFolder=/sites/CMB_RMBS/SPIRIT1/Shared%20Documents/Weekly%20-%20Monthly%20Updates%20with%20Minutes/GSM%20Regulatory%20Meeting&FolderCTID=0x0120001B3453AA00054240B36DF301ED468856&View=%7bB2FB8E8A-FC40-4165-AED3-A90492830A30%7d"
+            }, {
+               "date_added": "13144336341492051",
+               "id": "492",
+               "meta_info": {
+                  "last_visited_desktop": "13147411895631426"
+               },
+               "name": "TeamCity",
+               "type": "url",
+               "url": "https://teamcity.icgbuild.nam.nsroot.net/project.html?projectId=icg_cmt_168043"
+            }, {
+               "date_added": "13144486501532364",
+               "id": "494",
+               "meta_info": {
+                  "last_visited_desktop": "13147258126848384"
+               },
+               "name": "Bitbucket DC",
+               "type": "url",
+               "url": "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/DS/repos/gsmspark.all/browse"
+            }, {
+               "date_added": "13148963694731091",
+               "id": "528",
+               "meta_info": {
+                  "last_visited_desktop": "13150882979396152"
+               },
+               "name": "uGrand Central",
+               "type": "url",
+               "url": "https://gcstudio.nj.ssmb.com/gcstudio/"
+            }, {
+               "date_added": "13148977965611257",
+               "id": "529",
+               "meta_info": {
+                  "last_visited_desktop": "13148979647459626"
+               },
+               "name": "pGrand Central",
+               "type": "url",
+               "url": "https://grandcnt.nj.ssmb.com/grandcnt/"
+            }, {
+               "date_added": "13150199109996276",
+               "id": "536",
+               "meta_info": {
+                  "last_visited_desktop": "13150199109998981"
+               },
+               "name": "SSRS",
+               "type": "url",
+               "url": "https://reports.tfs.citigroup.net:8443/Reports/Pages/Folder.aspx"
+            } ],
+            "date_added": "13116913281584132",
+            "date_modified": "13150275988654796",
+            "id": "353",
+            "name": "Dev",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13112447500425253",
+               "id": "320",
+               "meta_info": {
+                  "last_visited_desktop": "13133435481448710"
+               },
+               "name": "spark - org.apache.spark",
+               "type": "url",
+               "url": "http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.package"
+            }, {
+               "date_added": "13094702284568690",
+               "id": "255",
+               "name": "Home - Cloudera Manager",
+               "type": "url",
+               "url": "http://dataspherecloudera:7180/cmf/home"
+            }, {
+               "date_added": "13112849363312048",
+               "id": "323",
+               "name": "选择文件构建 · Gradle User Guide 中文版",
+               "type": "url",
+               "url": "https://dongchuan.gitbooks.io/gradle-user-guide-/content/using_the_gradle_command-line/selecting_which_build_to_execute.html"
+            }, {
+               "date_added": "13113048985584732",
+               "id": "326",
+               "name": "Supported syntax of Spark SQL",
+               "type": "url",
+               "url": "https://docs.datastax.com/en/latest-dse/datastax_enterprise/spark/sparkSqlSupportedSyntax.html"
+            }, {
+               "date_added": "13113642656582268",
+               "id": "329",
+               "name": "Spark Packages",
+               "type": "url",
+               "url": "https://spark-packages.org/"
+            }, {
+               "date_added": "13113643018478899",
+               "id": "330",
+               "meta_info": {
+                  "last_visited_desktop": "13134195101820236"
+               },
+               "name": "Databricks Community Forum - Databricks Community Forum",
+               "type": "url",
+               "url": "https://forums.databricks.com/"
+            }, {
+               "date_added": "13113643401395632",
+               "id": "331",
+               "name": "pyspark package — PySpark 1.6.2 documentation",
+               "type": "url",
+               "url": "http://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.RDD"
+            }, {
+               "date_added": "13113643443948910",
+               "id": "332",
+               "name": "The Python Standard Library — Python 3.4.5 documentation",
+               "type": "url",
+               "url": "https://docs.python.org/3.4/library/index.html"
+            }, {
+               "date_added": "13113643541961925",
+               "id": "333",
+               "meta_info": {
+                  "last_visited_desktop": "13150179328727978"
+               },
+               "name": "Scala Standard Library 2.11.5 - Regex - Scala Standard Library 2.11.5 - scala.util.matching.Regex",
+               "type": "url",
+               "url": "http://www.scala-lang.org/api/2.11.5/index.html#scala.util.matching.Regex"
+            }, {
+               "date_added": "13147325495780504",
+               "id": "511",
+               "meta_info": {
+                  "last_visited_desktop": "13147325495780817"
+               },
+               "name": "dHue",
+               "type": "url",
+               "url": "https://dsccmaster02i1d.eur.nsroot.net:8888/filebrowser/"
+            }, {
+               "date_added": "13147325539420841",
+               "id": "512",
+               "meta_info": {
+                  "last_visited_desktop": "13147855601691266"
+               },
+               "name": "uHue",
+               "type": "url",
+               "url": "https://dsccmaster02i1u.eur.nsroot.net:8888/filebrowser/"
+            }, {
+               "date_added": "13147325583169212",
+               "id": "513",
+               "meta_info": {
+                  "last_visited_desktop": "13147325583169584"
+               },
+               "name": "dYarn",
+               "type": "url",
+               "url": "http://dsccmaster02i1d.eur.nsroot.net:8088/cluster"
+            }, {
+               "date_added": "13147325630775561",
+               "id": "514",
+               "meta_info": {
+                  "last_visited_desktop": "13149163859209829"
+               },
+               "name": "uYarn",
+               "type": "url",
+               "url": "http://dsccmaster02i1u.eur.nsroot.net:8088/cluster"
+            }, {
+               "date_added": "13147325670252584",
+               "id": "515",
+               "meta_info": {
+                  "last_visited_desktop": "13148727953683092"
+               },
+               "name": "uZeppelin",
+               "type": "url",
+               "url": "http://dsccproxy01i1u:11900/#/"
+            }, {
+               "date_added": "13147325687091063",
+               "id": "516",
+               "meta_info": {
+                  "last_visited_desktop": "13147432810836425"
+               },
+               "name": "dZeppelin",
+               "type": "url",
+               "url": "http://dsccproxy01i1d:11900/#/"
+            }, {
+               "date_added": "13147325711935741",
+               "id": "517",
+               "meta_info": {
+                  "last_visited_desktop": "13152178666416408"
+               },
+               "name": "dClouderaManager",
+               "type": "url",
+               "url": "https://dsccproxy02i1d.eur.nsroot.net:7183/cmf/home"
+            }, {
+               "date_added": "13147325760465365",
+               "id": "518",
+               "meta_info": {
+                  "last_visited_desktop": "13152178790677083"
+               },
+               "name": "uClouderaManager",
+               "type": "url",
+               "url": "https://dsccproxy02i1u.eur.nsroot.net:7183/cmf/home"
+            }, {
+               "date_added": "13147326504016252",
+               "id": "519",
+               "meta_info": {
+                  "last_visited_desktop": "13147948598978194"
+               },
+               "name": "EMEA Kerberos Password Service",
+               "type": "url",
+               "url": "https://krb5admd.eur.nsroot.net/"
+            }, {
+               "date_added": "13147444876779756",
+               "id": "521",
+               "meta_info": {
+                  "last_visited_desktop": "13148375876994898"
+               },
+               "name": "token",
+               "type": "url",
+               "url": "https://datacentertoolsaccess.ti.citigroup.net/stools/wais/Home.aspx"
+            } ],
+            "date_added": "13112447392242344",
+            "date_modified": "13147799251587688",
+            "id": "317",
+            "name": "hadoop",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13114257642677128",
+               "id": "338",
+               "meta_info": {
+                  "last_visited_desktop": "13150807448937886"
+               },
+               "name": "Linear Algebra tutorial: Cross Product",
+               "type": "url",
+               "url": "http://people.revoledu.com/kardi/tutorial/LinearAlgebra/VectorCrossProduct.html"
+            }, {
+               "date_added": "13114692065217460",
+               "id": "342",
+               "meta_info": {
+                  "last_visited_desktop": "13150807452987999"
+               },
+               "name": "Inverse of a Matrix",
+               "type": "url",
+               "url": "https://www.mathsisfun.com/algebra/matrix-inverse.html"
+            }, {
+               "date_added": "13088747108370553",
+               "id": "191",
+               "meta_info": {
+                  "last_visited_desktop": "13150807549062356"
+               },
+               "name": "Complete Guide To Corporate Finance",
+               "sync_transaction_version": "72",
+               "type": "url",
+               "url": "http://www.investopedia.com/walkthrough/corporate-finance/"
+            }, {
+               "date_added": "13122358451672564",
+               "id": "386",
+               "meta_info": {
+                  "last_visited_desktop": "13152250712714953"
+               },
+               "name": "CMSC 311 - Class Notes",
+               "type": "url",
+               "url": "https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/"
+            }, {
+               "date_added": "13132896735934308",
+               "id": "436",
+               "meta_info": {
+                  "last_visited_desktop": "13150807276764772"
+               },
+               "name": "Tibor Karaszi",
+               "type": "url",
+               "url": "http://sqlblog.com/blogs/tibor_karaszi/"
+            }, {
+               "date_added": "13137069730348944",
+               "id": "450",
+               "meta_info": {
+                  "last_visited_desktop": "13150807682920318"
+               },
+               "name": "Internet Archive: Digital Library of Free Books, Movies, Music & Wayback Machine",
+               "type": "url",
+               "url": "https://archive.org/"
+            }, {
+               "date_added": "13137157339079040",
+               "id": "451",
+               "meta_info": {
+                  "last_visited_desktop": "13150807300171609"
+               },
+               "name": "How It Works: Bob Dorr’s SQL Server I/O Presentation – CSS SQL Server Engineers",
+               "type": "url",
+               "url": "https://blogs.msdn.microsoft.com/psssql/2010/03/24/how-it-works-bob-dorrs-sql-server-io-presentation/"
+            }, {
+               "date_added": "13137253939947016",
+               "id": "453",
+               "meta_info": {
+                  "last_visited_desktop": "13150807693162924"
+               },
+               "name": "Introduction to Locking in SQL Server - SQLTeam.com",
+               "type": "url",
+               "url": "http://www.sqlteam.com/article/introduction-to-locking-in-sql-server"
+            }, {
+               "date_added": "13137494918449416",
+               "id": "456",
+               "meta_info": {
+                  "last_visited_desktop": "13137494918449830"
+               },
+               "name": "The Risks Of Mortgage-Backed Securities",
+               "type": "url",
+               "url": "http://www.investopedia.com/articles/mortgages-real-estate/08/weighted-average-mbs.asp?ad=dirN&qo=investopediaSiteSearch&qsrc=0&o=40186"
+            }, {
+               "date_added": "13138367018047355",
+               "id": "461",
+               "meta_info": {
+                  "last_visited_desktop": "13138435546410231"
+               },
+               "name": "eMBS | Data Client FAQ",
+               "type": "url",
+               "url": "http://www.embs.com/public/html/DataFAQ.htm#offer"
+            }, {
+               "date_added": "13138879366020409",
+               "id": "464",
+               "meta_info": {
+                  "last_visited_desktop": "13138879366023721"
+               },
+               "name": "Performance Tuning",
+               "type": "url",
+               "url": "http://www.qdpma.com/"
+            }, {
+               "date_added": "13138940986483943",
+               "id": "466",
+               "meta_info": {
+                  "last_visited_desktop": "13139286809480939"
+               },
+               "name": "Engineering Excellence at Citi 1: Technical Exc... | Citi Collaborate",
+               "type": "url",
+               "url": "https://collaborate.citi.net/docs/DOC-458062"
+            }, {
+               "date_added": "13139572140295517",
+               "id": "470",
+               "meta_info": {
+                  "last_visited_desktop": "13150807645487321"
+               },
+               "name": "dblp: ACM Transactions on Storage, Volume 1",
+               "type": "url",
+               "url": "http://dblp.uni-trier.de/db/journals/tos/tos1.html"
+            }, {
+               "date_added": "13141121654106404",
+               "id": "478",
+               "meta_info": {
+                  "last_visited_desktop": "13142310423767561"
+               },
+               "name": "Jupyter Notebook Viewer",
+               "type": "url",
+               "url": "http://nbviewer.jupyter.org/"
+            }, {
+               "date_added": "13141720325062825",
+               "id": "482",
+               "meta_info": {
+                  "last_visited_desktop": "13153298464873766"
+               },
+               "name": "Inside The Storage Engine: GAM, SGAM, PFS and other allocation maps - Paul S. Randal",
+               "type": "url",
+               "url": "https://www.sqlskills.com/blogs/paul/inside-the-storage-engine-gam-sgam-pfs-and-other-allocation-maps/"
+            }, {
+               "date_added": "13143548038061832",
+               "id": "488",
+               "meta_info": {
+                  "last_visited_desktop": "13150807604461522"
+               },
+               "name": "Tutorials, Python Courses: Online and On Site",
+               "type": "url",
+               "url": "http://www.python-course.eu/index.php"
+            }, {
+               "date_added": "13143892240319823",
+               "id": "489",
+               "meta_info": {
+                  "last_visited_desktop": "13143892240320267"
+               },
+               "name": "Bank regulation in the United States - Wikipedia",
+               "type": "url",
+               "url": "https://en.wikipedia.org/wiki/Bank_regulation_in_the_United_States"
+            }, {
+               "date_added": "13144487040327684",
+               "id": "495",
+               "meta_info": {
+                  "last_visited_desktop": "13144487040327897"
+               },
+               "name": "NAIC Capital Markets Special Report",
+               "type": "url",
+               "url": "http://www.naic.org/capital_markets_archive/121116.htm"
+            }, {
+               "date_added": "13145347676634081",
+               "id": "502",
+               "meta_info": {
+                  "last_visited_desktop": "13145347676635975"
+               },
+               "name": "Format SQL Statements Online - sqlformat.org",
+               "type": "url",
+               "url": "https://sqlformat.org/"
+            }, {
+               "date_added": "13146741718133965",
+               "id": "508",
+               "meta_info": {
+                  "last_visited_desktop": "13150807573755182"
+               },
+               "name": "Internal Format Tool",
+               "type": "url",
+               "url": "http://spiritappdv:9527/tools/data_helper/popup.html"
+            }, {
+               "date_added": "13150275988654796",
+               "id": "537",
+               "meta_info": {
+                  "last_visited_desktop": "13150807591921726"
+               },
+               "name": "OMG Formal Specifications",
+               "type": "url",
+               "url": "http://www.omg.org/spec/"
+            } ],
+            "date_added": "13112849710531657",
+            "date_modified": "13152379638704649",
+            "id": "324",
+            "name": "Buffer",
+            "type": "folder"
+         }, {
+            "date_added": "13087303742485257",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13153900774954449"
+            },
+            "name": "LMS",
+            "sync_transaction_version": "39",
+            "type": "url",
+            "url": "https://training.citigroup.net/SumTotal/learner/home/index"
+         } ],
+         "date_added": "13087292055670054",
+         "date_modified": "13153804419058305",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13149585667842050",
+            "id": "532",
+            "meta_info": {
+               "last_visited_desktop": "13149585667842541"
+            },
+            "name": "Bank for International Settlements",
+            "type": "url",
+            "url": "http://www.bis.org/"
+         }, {
+            "date_added": "13153804419058305",
+            "id": "546",
+            "meta_info": {
+               "last_visited_desktop": "13153804419060494"
+            },
+            "name": "MIT Undergraduate Curriculum Map and OCW | MIT OpenCourseWare | Free Online Course Materials",
+            "type": "url",
+            "url": "https://ocw.mit.edu/courses/curriculum-map/"
+         }, {
+            "date_added": "13153831206541369",
+            "id": "548",
+            "meta_info": {
+               "last_visited_desktop": "13153987787467199"
+            },
+            "name": "Dashboard | edX",
+            "type": "url",
+            "url": "https://courses.edx.org/dashboard"
+         }, {
+            "date_added": "13153900815346524",
+            "id": "549",
+            "meta_info": {
+               "last_visited_desktop": "13154004369280906"
+            },
+            "name": "Citi Udemy Portal",
+            "type": "url",
+            "url": "https://citigroup.udemy.com/organization/landing/"
+         } ],
+         "date_added": "13087292055670066",
+         "date_modified": "13153900815346524",
+         "id": "2",
+         "name": "Other bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "171",
+      "synced": {
+         "children": [  ],
+         "date_added": "13087292055670068",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
