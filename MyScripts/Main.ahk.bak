@@ -1,8 +1,13 @@
 #SingleInstance Force
 
 #Include ModeSwitch.ahk
+<<<<<<< HEAD
 #Include functions.ahk
 #Include kafka.ahk
+=======
+
+
+>>>>>>> 7f817d59ba804354562414be18628957750fb89b
 #F1::
 	SwitchTo("AutoHotKey.ahk")
 return
@@ -30,6 +35,7 @@ return
     Run, autohotkey.exe CountDown.ahk
 return
 
+=======
 
 
 #F5::
@@ -37,12 +43,14 @@ return
 return
 
 
+>>>>>>> 7f817d59ba804354562414be18628957750fb89b
  #!r::
 	Reload
 	ToolTip, Main reloading
 	SetTimer, RemoveToolTip, 2000	
  return
  
+<<<<<<< HEAD
  #Numpad4::
     Run, "C:/Users/qz55554/AppData/Local/Programs/jdk-10.0.2/bin/jshell.exe"
  return
@@ -78,7 +86,8 @@ return
     Sleep, 1000
 return
  
-
+=======
+>>>>>>> 7f817d59ba804354562414be18628957750fb89b
  
  #1::
     run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
@@ -89,7 +98,7 @@ return
     SendInput, git pull`n
     SendInput, ls`n
 return
-
+<<<<<<< HEAD
 
 #!1::
     run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
@@ -102,26 +111,30 @@ return
     WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
     WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
     SendInput, cd ~/Source/Repo/gsmspark.all/`n
+>>>>>>> 7f817d59ba804354562414be18628957750fb89b
     SendInput, git status`n
     SendInput, git pull`n
     SendInput, ls`n
 return
-
+<<<<<<< HEAD
 
 #+1::
     run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
     WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
     WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
     SendInput, cd ~/Source/Repo/gsmspark.all/`n
+=======
 #!1::
     run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
     WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
     WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
     SendInput, cd ~/Source/Repo/datasphere.ssis/Fauna.DB2014`n
+>>>>>>> 7f817d59ba804354562414be18628957750fb89b
     SendInput, git status`n
     SendInput, git pull`n
     SendInput, ls`n
 return
+<<<<<<< HEAD
 
 #F4::
 IfWinNotExist ahk_class SciTEWindow
@@ -170,3 +183,5 @@ Return
     SendRaw gsmspark`tgsmspark`r
     ;SendRaw gsmspark`tgsm_476338`r
 Return
+=======
+>>>>>>> 7f817d59ba804354562414be18628957750fb89b
