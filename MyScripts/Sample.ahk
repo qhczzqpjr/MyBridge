@@ -8,16 +8,137 @@
 ;Sleep, 1000
 ;Send, Hello
 #SingleInstance force
-
 #Include functions.ahk
-#Include Class_SQLiteDB.ahk
+;~ FileName=C:\Users\qz55554\Desktop\test\test.txt
+;~ Content=Hello`r`n
+;~ FileAppend %Content%,%FileName%
 
-SetWorkingDir %A_ScriptDir%
-
-gTFSRepo = "https://citi.tms.east.citigroup."
-#F1::
-    run, ::{20d04fe0-3aea-1069-a2d8-08002b30309d}
+;Numpad0
+#Numpad6::
+    BindProgram("QlikView x64 - [Eagle_Data_Quality_DM] ahk_exe Qv.exe","""C:\Program Files\QlikView\Qv.exe"" ""C:\Users\qz55554\Desktop\Eagle\Eagle\EAGLE\60_DASHBOARDS\GSMDQ\50_APPLICATION\Eagle GSM Data Quality Dashboard.qvw""")
 return
+
+::/gg::
+    SendRaw, select * from information_schema.columns where table_schema + '.' + table_name = '' and column_name like '`%`%'
+return
+
+;gradle init --type java-library
+
+
+/* --translate with baidu api
+appid = 20161124000032646
+q=apple
+salt=  
+pwd = zGI_3XiojzQlvTXfOWmB
+sign:= appid . q . 1435660288 . pwd
+
+Clipboard = %salt%
+
+from = en
+to = zh
+
+sign=e478bc0defdb693fd65a5b368e896cda
+
+request:="http://api.fanyi.baidu.com/api/trans/vip/translate?q=" apple "&" "from=" from "&to=" to "&appid=" appid "&salt=" salt "sign=" sign
+MsgBox, %CurrentDateTime%
+*/
+
+
+;http://api.fanyi.baidu.com/api/trans/vip/translate?q=apple&from=en&to=zh&appid=2015063000000001&salt=1435660288&sign=f89f9594663708c1605f3d736d01d2d4
+
+
+
+
+;~ #Include functions.ahk
+;~ #Include Class_SQLiteDB.ahk
+
+;~ DestinationPath=C:\Users\qz55554\Desktop\test.sql
+;~ test=Archived.DUEDIL_Load_Intex_BBrg_MonthEnd.StoredProcedure
+;~ repo=C:\Users\qz55554\Desktop\test\
+;~ SourceName = %repo%%test%.sql
+;~ ;MsgBox, %SourceName%
+;~ FileCopy, %SourceName%, %DestinationPath%, 1
+
+;~ C:\Users\qz55554\Downloads\logo.ico
+;~ AHKPanic(1)
+;~ ATitle="SciTE4"
+;~ IfNotInString, "SciTE4",
+
+
+
+;~ AHKPanic(Kill=0, Pause=0, Suspend=0, SelfToo=0) {
+;~ DetectHiddenWindows, On
+;~ WinGet, IDList ,List, ahk_class AutoHotkey
+;~ Loop %IDList%
+  ;~ {
+  ;~ ID:=IDList%A_Index%
+  ;~ WinGetTitle, ATitle, ahk_id %ID%
+  ;~ IfNotInString, ATitle, %A_ScriptFullPath%
+    ;~ {
+    ;~ IfNotInString, ATitle, SciTE ; exclude SciTE instance
+        ;~ { 
+            ;~ If Suspend
+              ;~ PostMessage, 0x111, 65305,,, ahk_id %ID%  ; Suspend. 
+            ;~ If Pause
+              ;~ PostMessage, 0x111, 65306,,, ahk_id %ID%  ; Pause.
+            ;~ If Kill
+                ;WinClose, ahk_id %ID% ;kill
+                ;~ MsgBox,%ATitle%
+        ;~ }
+    ;~ }
+  ;~ }
+;~ If SelfToo
+  ;~ {
+  ;~ If Suspend
+    ;~ Suspend, Toggle  ; Suspend. 
+  ;~ If Pause
+    ;~ Pause, Toggle, 1  ; Pause.
+  ;~ If Kill
+    ;~ ExitApp
+  ;~ }
+;~ }
+
+
+;~ ::/kbh::kinit -k -t /opt/Cloudera/keytabs/hbase.``hostname``.keytab hbase/``hostname -f``
+;~ ::/shl::/usr/bin/phoenix-sqlline.py dsccmaster01i1d.eur.nsroot.net,dsccmaster02i1d.eur.nsroot.net,dsccmaster03i1d.eur.nsroot.net:2181:/hbase-gsmspark
+
+;~ Numpad0 & Numpad1::MsgBox You pressed Numpad1 while holding down Numpad0.
+;~ Numpad0::Send {Numpad0}  ; Make the release of Numpad0 produce a Numpad0 keystroke. See comment below.
+;~ RAlt & j::AltTab
+;~ RAlt & k::ShiftAltTab
+;~ MButton::AltTabMenu
+;~ WheelDown::AltTab
+;~ WheelUp::ShiftAltTab
+;~ RButton & WheelDown::AltTab
+;~ RButton & WheelUp::ShiftAltTab
+;~ RButton::Send {RButton}
+;~ Repo=\\speedappdev\Share\temp\DBSplit\Repo\
+;~ DoOverwrite=1
+;~ DestinationPath=%A_Desktop%\test.sql
+
+;~ #F1::
+    ;~ Sleep,333
+    ;~ send, ^c
+    ;~ ClipWait
+    ;~ FileName := Clipboard
+    ;~ SourcePath = %Repo%%FileName%.sql
+        
+    ;~ IfNotExist, %SourcePath%
+        ;~ MsgBox, No such object found
+    ;~ FileCopy, %SourcePath%, %DestinationPath%, %DoOverwrite%
+
+;~ return
+
+   
+    
+    ;~ if !FileExist(%SourceName%)
+        ;~ MsgBox, The target file does not exist.
+        
+    
+   ;Run,powershell %A_ScriptDir%"\test.ps1" %SqlName%
+
+
+    
 ;~ while 1==1
 ;~ {
     ;~ MouseMove, 100, 300, 50, R
@@ -170,18 +291,6 @@ MD5( ByRef V, L=0 ) {
 Return MD5 
 }
 ;  
-/*
-q = Clipboard
-appid = 20161124000032646
-pwd = zGI_3XiojzQlvTXfOWmB
-from = en
-to = zh
-salt = 
-md5Str = 
-sign = md5()
-
-http://api.fanyi.baidu.com/api/trans/vip/translate?q=apple&from=en&to=zh&appid=2015063000000001&salt=1435660288&sign=f89f9594663708c1605f3d736d01d2d4
-*/
 
 
 /*

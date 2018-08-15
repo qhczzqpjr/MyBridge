@@ -4,6 +4,7 @@
 ;# Windows Key
 #SingleInstance force
 #Include functions.ahk
+#Include HBASE.ahk
 ;https://tfs.citigroup.net/tfs
 ;~ Comment/UnComment Code Out - ^Q
 
@@ -12,12 +13,17 @@ gMonitor:= "Dell"
 
 ;Quick TypeIn
 ::/e::explorer.exe .
+::/pr::Jw70294;jg61298;xz58247
 ::/st::select * from
 ::/stc::select Count(1) from
 ::/st10::select top 10 * from
 ::/sit::SELECT * FROM INFORMATION_SCHEMA.TABLES
-::/stit::select * from information_schema.tables where table_schema + '.'+ table_name = ''
-::/stic::select * from information_schema.columns where table_schema + '.' + table_name = '' and column_name like '%%'
+::/stit::
+     SendRaw, select * from information_schema.tables where table_schema + '.'+ table_name = ''
+return
+::/stic::
+    SendRaw, select * from information_schema.columns where table_schema + '.' + table_name = '' and column_name like '`%`%'
+return
 
 ::/sd::SELECT <key> FROM <table> GROUP BY <key> HAVING COUNT(1)>=2
 ::/sd1::select count(<key>)*1.0/ count(1) from <table>
@@ -38,17 +44,16 @@ gMonitor:= "Dell"
 ::/gcd::git checkout develop
 ::/gs::git status
 ::/gp::git pull
-::/gpn::git push --set-upstream origin UserStory_
+::/gpn::git push --set-upstream origin feature/
 ::/gps::git push
-::/gcu::git checkout UserStory_
-::/gcun::git checkout -b UserStory_
+::/gcu::git checkout feature/
+::/gcun::git checkout -b feature/
 ::/gb::git branch
 ::/gmd::git merge develop
 ::/gcm::git commit -m "
 ::/ppi::pip install  --proxy proxy.citicorp.com:8080
 ::/cmp::co00724
 ::/cmp1::100141409
-
 ::/call1::6820479425
 ::/call2::1241873064
 ::/call0::*2255
@@ -57,7 +62,10 @@ gMonitor:= "Dell"
 ::/mail::qian1.zhu@citi.com
 ::/mail0::mailhub-vip.nj.ssmb.com
 ::/proxy::proxy.citicorp.com:8080
-
+::/pbr::pbrun gsmspark
+::/pbr1::pbrun gsmspark -dap
+::/py::C:/Users/qz55554/AppData/Local/Continuum/anaconda3/python.exe
+::/httpserver::C:\Users\qz55554\AppData\Local\Continuum\anaconda3\python.exe -m http.server 8000
 ^+c::
 ; null= 
 send ^c
@@ -82,29 +90,28 @@ return
     ClipWait
     AutosysJobName := Clipboard
     ;TargetUrl := "https://tiawccap001swq.nam.nsroot.net:10157/QuickView/pages/main.jsf?serverName=PA6&displayMode=inFrame&jobName=" AutosysJobName "&conversationContext=1"
-    TargetUrl := "https://tiajawap004swp.nam.nsroot.net:8443/wcc/login/applicationLogin.faces"
+    TargetUrl := "https://tiasysap007gtp.nam.nsroot.net:8443/wcc/login/applicationLogin.faces"
     Run, %TargetUrl%
     Sleep, 2000
-    ;~ IfWinExist, Login - CA Workload Control Center - Google Chrome ahk_class Chrome_WidgetWin_1
-    ;~ {
-        ;~ WinWaitActive, Login - CA Workload Control Center - Google Chrome ahk_class Chrome_WidgetWin_1
-        ;~ Sleep, 333
-        ;~ Credential := GetCredential("Me")
-        ;~ SendRaw, %Credential% 
-    ;~ }
-    IfWinExist, WCC5 - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
+    IfWinExist, Login Page - CA Workload Control Center - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
     {
-        WinWaitActive, WCC5 - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
+        WinWaitActive, Login Page - CA Workload Control Center - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
         Sleep, 333
         Credential := GetCredential("Me")
-        SendRaw, %Credential%
-        Sleep, 2333
-        MouseClick,left,545,170
+        SendRaw, %Credential% 
     }
+    Sleep, 3000
+    MouseClick,left,800,170
+    Sleep, 2000
+    MouseClick,left,600,275
+    Sleep, 1000
+    MouseClick,left,400,470
+    Sleep, 2000
+    MouseClick,left,1050,270
+    SendInput, %AutosysJobName%`r
 return
 
 #!a:: ;Autosys
-    
     Sleep,333
     send, ^c
     ClipWait
@@ -151,9 +158,7 @@ return
     SendRaw, %Credential%
 return
 
-#f:: ;Fauna - invalid
-    run, https://tfs.citigroup.net/tfs/Jupiter/Data_Sphere.Data_Sphere/_git/Fauna.DB.Git
-return
+;#f::
 
 #g:: ;Temp
     WinGet nChromeWindows, Count, ahk_class Chrome_WidgetWin_1
@@ -161,13 +166,13 @@ return
     {
         
         IfWinActive, ahk_class Chrome_WidgetWin_1   
-    {
-        WinMinimize, ahk_class Chrome_WidgetWin_1   
-    }
-    else
-    {
-        WinActivate, ahk_class Chrome_WidgetWin_1   
-    }
+        {
+            WinMinimize, ahk_class Chrome_WidgetWin_1   
+        }
+        else
+        {
+            WinActivate, ahk_class Chrome_WidgetWin_1   
+        }
     } else
     {
         send, ^c
@@ -190,13 +195,15 @@ return
     SendInput,sp_spaceused '%Clipboard%'
 return
 
-#j:: ;Jekins
-    run, http://speedappdev:1201/view/DB/job/SPEED.TSQL
+
+#j:: ;TeamCity - SQL
+    run, https://teamcity.icgbuild.nam.nsroot.net/viewType.html?buildTypeId=icg_cmt_168043_ReleaseBuild_DataSpehreTsql
 return
 
-#!j:: ;TeamCity
-    run, https://teamcity.icgbuild.nam.nsroot.net/project.html?projectId=icg_cmt_168043
+#!j:: ;TeamCity - SSIS
+    run, https://teamcity.icgbuild.nam.nsroot.net/viewType.html?buildTypeId=icg_cmt_168043_ReleaseBuild_DataSphereSsis
 return
+
 
 #k::
     
@@ -212,9 +219,7 @@ return
 
 ;#n ;new onenote
 
-#o:: ;Tsql.speed
-    run, https://tfs.citigroup.net/tfs/Jupiter/Data_Sphere.Data_Sphere/_git/Tsql.speeddb.Git
-return 
+;#o
 
 #p:: ;Udeploy
     run, https://releasedeployment.ti.citigroup.net:8443/#dashboard
@@ -227,65 +232,23 @@ return
 return
 
 #q:: ;Lync
-   IfWinExist, Skype for Business ahk_class CommunicatorMainWindowClass ahk_exe lync.exe
-    {
-        IfWinActive, Skype for Business ahk_class CommunicatorMainWindowClass ahk_exe lync.exe
-        {
-            WinMinimize, Skype for Business ahk_class CommunicatorMainWindowClass ahk_exe lync.exe
-        }
-        else
-        {
-            WinActivate, Skype for Business ahk_class CommunicatorMainWindowClass ahk_exe lync.exe
-        }
-    }
-    else{ 
-        run, C:\Program Files (x86)\Microsoft Office\Office16\lync.exe
-    }
-    
+    BindProgram("Skype for Business ahk_class CommunicatorMainWindowClass ahk_exe lync.exe", "C:\Program Files (x86)\Microsoft Office\Office16\lync.exe")
 return
 #r:: ;Remote Desktop Manager
-
-Program := "WindowsForms10.Window.8.app.0.2a125d8_r24_ad1"
-Exe := "C:\Users\qz55554\AppData\Local\Programs\Remote Desktop Connection Manager\RDCMan.exe"
-
-BindProgram(Program, Exe)
-
+    BindProgram("WindowsForms10.Window.8.app.0.2a125d8_r24_ad1", "C:\Users\qz55554\AppData\Local\Programs\Remote Desktop Connection Manager\RDCMan.exe")
 return
 
 ;#s ;snapshot
-;https://tfs.citigroup.net/tfs/Jupiter/Data_Sphere.Data_Sphere/_dashboards
-#+t:: ;TFS
-    IfWinExist, ToMeInActive - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1
-    {
-        IfWinActive, ToMeInActive - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1
-        {
-            WinMinimize, ToMeInActive - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1
-        }
-        else
-        {
-            WinActivate, ToMeInActive - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1
-        }
-    }
-    else{ 
-        run, https://tfs.citigroup.net/tfs/Jupiter/Speed.Git/_workitems`#path=My`+Queries`%2FToMeInActive`&_a=query
-    }
+
+;TFS
+#+t:: 
+    BindProgram("ToMeInActive - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1","https://tfs.citigroup.net/tfs/Jupiter/Speed.Git/_workitems`#path=My`+Queries`%2FToMeInActive`&_a=query")
 return
 
-#t:: ;TFS
-    IfWinExist, ToMeInActive2 - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1
-    {
-        IfWinActive, ToMeInActive2 - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1
-        {
-            WinMinimize
-        }
-        else
-        {
-            WinActivate
-        }
-    }
-    else{ 
-        run, https://tfs.citigroup.net/tfs/Oberon/Data_Sphere.Data_Sphere/_workitems`#path=My`+Queries`%2FToMeInActive2`&_a=query
-    }
+;JIRA
+#t:: 
+    BindProgram("[My Open Issues] Issue Navigator - CEDT ICG JIRA DC - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe"
+    ,"https://cedt-icg-jira.nam.nsroot.net/jira/issues/?filter=-1")
 return
 
 ;#u ;used by pc
@@ -303,7 +266,7 @@ return
 
 
 #w:: ;Wiki
-    run, https://cedt-confluence.nam.nsroot.net/confluence/display/156762/DataSphere+Release+List+2017
+    run, https://cedt-confluence.nam.nsroot.net/confluence/display/156762/DataSphere+Release+List+2018
     IfWinExist, Citi Service Management Suite: Sign-On - Google Chrome ahk_class Chrome_WidgetWin_1
     {
         WinWaitActive, Citi Service Management Suite: Sign-On - Google Chrome ahk_class Chrome_WidgetWin_1
@@ -324,68 +287,25 @@ Return
    run, appwiz.cpl
 return
 
+#0::
+  run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
+    WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
+    WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
+    SendInput, cd /i/BKP/github/MyBridge`n
+    SendInput, git status`n
+    SendInput, ls`n
+return
 
-#1::
-    run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
-    WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
-    WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
-    SendInput, cd ~/Source/Repo/Tsql.speeddb.Git/Tsql.speeddb/`n
-    SendInput, git status`n
-    SendInput, git pull`n
-    SendInput, ls`n
-return
-#+1::
-    run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
-    WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
-    WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
-    SendInput, cd ~/Source/Repo/gsmspark.all/`n
-    SendInput, git status`n
-    SendInput, git pull`n
-    SendInput, ls`n
-return
-#!1::
-    run, C:\Users\qz55554\AppData\Local\Programs\Git\git-bash.exe
-    WinWaitActive, MINGW64:/c/Users/qz55554/Documents/MyScripts, , 2
-    WinActivate, MINGW64:/c/Users/qz55554/Documents/MyScripts
-    SendInput, cd ~/Source/Repo/Fauna.DB.2014.Git/Fauna.DB2014`n
-    SendInput, git status`n
-    SendInput, git pull`n
-    SendInput, ls`n
-return
+
+;SMSS
 #4::
-IfWinNotExist Speed_DataAnalysis - Microsoft SQL Server Management Studio
-{
-    run, "C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe" "C:\Users\qz55554\Documents\SQL Server Management Studio\Speed_DataAnalysis.ssmssln"
-}else
-{
-    IfWinActive, Speed_DataAnalysis - Microsoft SQL Server Management Studio
-    {
-        WinMinimize, Speed_DataAnalysis - Microsoft SQL Server Management Studio
-    }
-    else
-    {
-        WinActivate, Speed_DataAnalysis - Microsoft SQL Server Management Studio
-    }
-}
+    BindProgram("Speed_DataAnalysis - Microsoft SQL Server Management Studio","""C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe""" """C:\Users\qz55554\Documents\SQL Server Management Studio\Speed_DataAnalysis.ssmssln""")
 return
 
+;Eclipse
 #5::
-IfWinNotExist ahk_class SWT_Window0 ahk_exe javaw.exe
-{
-    run, "C:\Users\qz55554\AppData\Local\Programs\Eclipse\eclipse\eclipse.exe"
-}else
-{
-    IfWinActive, ahk_class SWT_Window0 ahk_exe javaw.exe
-    {
-        WinMinimize, ahk_class SWT_Window0 ahk_exe javaw.exe
-    }
-    else
-    {
-        WinActivate, ahk_class SWT_Window0 ahk_exe javaw.exe
-    }
-}
-return
-
+    BindProgram("ahk_class SWT_Window0 ahk_exe javaw.exe","C:\Users\qz55554\AppData\Local\Programs\Eclipse\eclipse\eclipse.exe")
+return 
 
 ;;;;;;;;;;;;;;;;;;;   Code check-in
 #Numpad0::
@@ -393,7 +313,7 @@ return
     BranchNo := Clipboard
     SendInput, git add -A`n
     sleep, 2000
-    SendInput, {Raw}git commit -m "U #%BranchNo% autocommit"`n
+    SendInput, {Raw}git commit -m "%BranchNo% autocommit"`n
     sleep, 2000
     SendInput, git push`n
 return
@@ -403,62 +323,29 @@ return
     BranchNo := Clipboard
     SendInput, git add -A`n
     sleep, 2000
-    SendInput, {Raw}git commit -m "U #%BranchNo% autocommit"`n
+    SendInput, {Raw}git commit -m "%BranchNo% autocommit"`n
     sleep, 2000
-    SendInput, git push --set-upstream origin UserStory_%BranchNo%`n
+    SendInput, git push --set-upstream origin %BranchNo%`n
 return
 
 
 
-;;;;;;;;;;;;;;;;;;;   PULL REQUEST  -  Chorme Window Left
-#Numpad1:: ;TSQL pull request
-    send, ^c
-    ClipWait
-    BranchNo := Clipboard
-    TargetUrl := "https://tfs.citigroup.net/tfs/Oberon/Data_Sphere.Data_Sphere/_git/Tsql.speeddb.Git/pullrequests?_a=createnew&sourceRef=" BranchNo "&targetRef=develop"
-    Run, %TargetUrl%
-    Sleep, 5000
-    WinWaitActive, Pull Requests - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
-    IfWinExist, Pull Requests - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
-    {
-        MouseClick, left, 400, 550
-        SendInput, Jw70294;xz58247;sr05896;yy68555;mp71077;jg61298
-    }
-
+;;;;;;;;;;;;;;;;;;;   Code Review
+#Numpad1::
+ 
 return
 
-#!Numpad1:: ;SSIS
-    send, ^c
-    ClipWait
-    BranchNo := Clipboard
-    TargetUrl := "https://tfs.citigroup.net/tfs/Oberon/Data_Sphere.Data_Sphere/_git/Fauna.DB.2014.Git/pullrequests?_a=createnew&sourceRef=" BranchNo "&targetRef=develop"
-    Run, %TargetUrl%
-    Sleep, 2000
-    WinWaitActive, Pull Requests - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
-    IfWinExist, Pull Requests - Microsoft Team Foundation Server - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
-    {
-        MouseClick, left, 400, 550
-        SendInput, Jw70294;xz58247;sr05896;yy68555;mp71077;jg61298
-    }
-    
+#!Numpad1::
 return
 
-;;;;;;;;;;;;;;;;;;;   Jekins
-#Numpad2:: ;TSQL
-    run, http://speedappdev:1201/view/DB/job/SPEED.TSQL/build?delay=0sec#skip2content
-    WinWaitActive, Jenkins - Google Chrome ahk_class Chrome_WidgetWin_1
-	Credential := GetCredential("Jks")
-    SendRaw, %Credential%    
+;;;;;;;;;;;;;;;;;;;   Code Build
+#Numpad2::  
 return
 
-#!Numpad2:: ;SSIS
-    run, http://speedappdev:1201/view/DB/job/SPEED.SSIS/build?delay=0sec#skip2content
-    WinWaitActive, Jenkins - Google Chrome ahk_class Chrome_WidgetWin_1
-	Credential := GetCredential("Jks")
-    SendRaw, %Credential%    
+#!Numpad2:: 
 return
 
-;;;;;;;;;;;;;;;;;;;   UDeploy
+;;;;;;;;;;;;;;;;;;;   Code Deployment
 #Numpad3::
     run, https://releasedeployment.ti.citigroup.net:8443/#dashboard
     Sleep, 2000
@@ -548,122 +435,27 @@ return
 
 
 
-
-#Numpad9::
-    
- Sleep,333
-    send, ^c
-    ClipWait
-    CourseKey := Clipboard
-    TargetUrl := "https://training.citigroup.net/SumTotal/learner/search?searchText=" CourseKey 
-    Run, %TargetUrl%
-    Sleep, 2000
-    IfWinExist, Single Sign-On - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
-    {
-        WinWaitActive, Single Sign-On - Google Chrome ahk_class Chrome_WidgetWin_1 ahk_exe chrome.exe
-        Sleep, 333
-        SendRaw, `t`t
-        Credential := GetCredential("Me")
-        SendRaw, %Credential% 
-        Sleep, 333
-        SendRaw, `t`r
-    }   
-return
-
 /*
 ------------------------------------------------------------------
     Window Switch Section
 ------------------------------------------------------------------
 */
 
-#F1::
-     IfWinActive, Microsoft Excel - QueryAnalysis.xlsx ahk_class XLMAIN
-    {
-        WinMinimize, Microsoft Excel - QueryAnalysis.xlsx ahk_class XLMAIN
-    }
-    else
-    {
-        WinActivate, Microsoft Excel - QueryAnalysis.xlsx ahk_class XLMAIN
-    }
-return
+;~ #F1::
+
+;~ return
 
 #F2::
-    IfWinNotExist, ahk_class Notepad++ ahk_exe notepad++.exe
-    {
-        run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Applications\Notepad++.lnk" 
-    }
-    else{
-        IfWinActive, ahk_class Notepad++ ahk_exe notepad++.exe
-        {
-            WinMinimize,  ahk_class Notepad++ ahk_exe notepad++.exe
-        }
-        else
-        {
-            WinActivate,  ahk_class Notepad++ ahk_exe notepad++.exe
-        }
-    }
+    BindProgram("ahk_class Notepad++ ahk_exe notepad++.exe","C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Applications\Notepad++.lnk" )
 return
 
 #F3::
-    IfWinNotExist, ahk_class XLMAIN ahk_exe EXCEL.EXE
-    {
-        run, "C:\Program Files (x86)\Microsoft Office\Office16\EXCEL.EXE" 
-        WinActivate, ahk_class XLMAIN ahk_exe EXCEL.EXE
-    }
-    else{
-        IfWinActive, ahk_class XLMAIN ahk_exe EXCEL.EXE
-        {
-            WinMinimize,  ahk_class XLMAIN ahk_exe EXCEL.EXE
-        }
-        else
-        {
-            WinActivate,  ahk_class XLMAIN ahk_exe EXCEL.EXE
-        }
-    }
+    BindProgram("ahk_class XLMAIN ahk_exe EXCEL.EXE","C:\Program Files (x86)\Microsoft Office\Office16\EXCEL.EXE" )
 return
-
-
-#F4::
-IfWinNotExist ahk_class SciTEWindow
-{
-    run, "C:\Users\qz55554\Documents\MyScripts\SciTE\SciTE.exe"
-}else
-{
-     IfWinActive, ahk_class SciTEWindow
-    {
-        WinMinimize, ahk_class SciTEWindow
-    }
-    else
-    {
-        WinActivate, ahk_class SciTEWindow
-    }
-}
-return
-
-
-
-
-
-
-
-
-
-
-
 
 
 ^#e::
     Credential := GetCredential("eMBS")
-    SendRaw, %Credential%  
-Return
-
-
-
-
-
-
-^#a::
-    Credential := GetCredential("Me")
     SendRaw, %Credential%  
 Return
 
@@ -673,10 +465,10 @@ Return
     SendRaw, %Credential%  
 Return
 
-^#d::
-    Credential := GetCredential("Spark")
-    SendRaw, %Credential%  
-Return
+;~ ^#d::
+    ;~ Credential := GetCredential("Spark")
+    ;~ SendRaw, %Credential%  
+;~ Return
 
 
 ^#s::
@@ -689,18 +481,9 @@ Return
     SendRaw %Credential%
 Return
 
-^#u::
-    Credential := GetCredential("Me","u")
-    SendRaw %Credential%
-RETURN
-
-^#p::
-    Credential := GetCredential("Me","p")
-    SendRaw %Credential%
-Return
-
 
 ^#j::
     Credential := GetCredential("Jks")
     SendRaw %Credential%
 Return
+

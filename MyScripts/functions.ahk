@@ -8,11 +8,11 @@ GetCredential(x, y="")
 		}
 		if (y="p")
 		{
-			return "Infy123+08`r"
+			return "Infy123+04`r"
 		}
 		if (y="")
 		{
-			return "qz55554`tInfy123+08`r"
+			return "qz55554`tInfy123+04`r"
 		}
 	}else if (x="Sys")
 	{
@@ -46,20 +46,21 @@ GetCredential(x, y="")
 	
 }
 
+
 BindProgram(Program, Exe)
 {
-	IfWinNotExist ahk_class %Program%
+	IfWinNotExist %Program%
 	{
 		run, %Exe%
 	}else
 	{
-		 IfWinActive, ahk_class %Program%
+		 IfWinActive, %Program%
 		{
-			WinMinimize, ahk_class %Program%
+			WinMinimize, %Program%
 		}
 		else
 		{
-			WinActivate, ahk_class %Program%
+			WinActivate, %Program%
 		}
 	}
 	return
