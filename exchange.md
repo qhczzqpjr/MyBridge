@@ -2,3 +2,6 @@ https://www.creativebloq.com/graphic-design/books-graphic-designers-11135231
 http://www.springboottutorial.com/spring-boot-vs-spring-mvc-vs-spring
 https://blog.csdn.net/maydaysar/article/details/56839617
 https://shipilev.net/talks/devoxx-Nov2012-perfMethodology-mindmap.pdf
+http://www.agilemodeling.com/essays/umlDiagrams.htm
+https://wildlyinaccurate.com/a-hackers-guide-to-git/#find-the-first-tag-that-contains-a-reference
+http://www.utdallas.edu/~chung/SP/applying-uml-and-patterns.pdf
