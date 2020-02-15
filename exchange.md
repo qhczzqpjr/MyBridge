@@ -7,3 +7,4 @@ https://wildlyinaccurate.com/a-hackers-guide-to-git/#find-the-first-tag-that-con
 http://www.utdallas.edu/~chung/SP/applying-uml-and-patterns.pdf
 https://lib-nuanxin.wqxuetang.com/
 https://sci-hub.tw/
+https://lib-nuanxin.wqxuetang.com/read/pdf/3208280
