@@ -8,3 +8,4 @@ http://www.utdallas.edu/~chung/SP/applying-uml-and-patterns.pdf
 https://lib-nuanxin.wqxuetang.com/
 https://sci-hub.tw/
 https://lib-nuanxin.wqxuetang.com/read/pdf/3208280
+https://blog.csdn.net/swinfans/article/details/89231247
